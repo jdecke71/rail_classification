@@ -1,0 +1,13 @@
+{
+    "CLF": "SVM",
+    "Counts": {
+        "0": "12",
+        "1": "28"
+    },
+    "Description": "Testing",
+    "Image Resolution": [
+        320,
+        320
+    ],
+    "Sample Size": 0.1
+}
