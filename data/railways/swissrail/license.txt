@@ -1,0 +1,19 @@
+[DE] O-BY: Freie Nutzung. Quellenangabe ist Pflicht.
+- Sie dürfen diesen Datensatz für nicht kommerzielle Zwecke nutzen.
+- Sie dürfen diesen Datensatz für kommerzielle Zwecke nutzen.
+- Eine Quellenangabe ist Pflicht (Datensatz-Bezeichnung, Bundesamt für Verkehr BAV).
+
+[FR] O-BY: Utilisation libre. Obligation d’indiquer la source.
+- Vous pouvez utiliser ce jeu de données à des fins non commerciales.
+- Vous pouvez utiliser ce jeu de données à des fins commerciales.
+- L’indication de la source est obligatoire (nom du jeu de données, Office fédéral des transports OFT).
+
+[IT] O-BY: Libero utilizzo. Indicazione della fonte obbligatoria.
+- Questo set di dati può essere utilizzato a fini non commerciali.
+- Questo set di dati può essere utilizzato a fini commerciali.
+- È obbligatoria l’indicazione della fonte (titolo del set di dati, Ufficio federale dei trasporti UFT)
+
+[EN] O-BY: Open use. Must provide the source.
+- You may use this dataset for non-commercial purposes.
+- You may use this dataset for commercial purposes.
+- You must cite the source (title of the dataset, Federal Office of Transport FOT).

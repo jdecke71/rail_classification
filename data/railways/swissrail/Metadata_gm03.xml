@@ -1,0 +1,1131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TRANSFER xmlns="http://www.interlis.ch/INTERLIS2.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <HEADERSECTION SENDER="geocat.ch" VERSION="2.3">
+    <MODELS />
+  </HEADERSECTION>
+  <DATASECTION>
+    <GM03_2_1Comprehensive.Comprehensive BID="xw3679224a">
+      <GM03_2_1Core.Core.MD_Metadata TID="xN258107591">
+        <fileIdentifier>4545b545-cdc9-4713-809c-210ee84436b0</fileIdentifier>
+        <language>de</language>
+        <characterSet>utf8</characterSet>
+        <dateStamp>2017-12-11T10:34:14</dateStamp>
+        <metadataStandardName>GM03_2</metadataStandardName>
+        <hierarchyLevel>
+          <GM03_2_1Core.Core.MD_ScopeCode_>
+            <value>dataset</value>
+          </GM03_2_1Core.Core.MD_ScopeCode_>
+        </hierarchyLevel>
+        <distributionInfo REF="xN854935491" />
+      </GM03_2_1Core.Core.MD_Metadata>
+      <GM03_2_1Core.Core.MD_Distribution TID="xN854935491" />
+      <GM03_2_1Core.Core.MD_DistributiondistributionFormat>
+        <MD_Distribution REF="xN854935491" />
+        <distributionFormat REF="xN1619534017" />
+      </GM03_2_1Core.Core.MD_DistributiondistributionFormat>
+      <GM03_2_1Comprehensive.Comprehensive.MD_Format TID="xN1619534017">
+        <name>ESRI File Geodatabase</name>
+        <version>-</version>
+      </GM03_2_1Comprehensive.Comprehensive.MD_Format>
+      <GM03_2_1Core.Core.MD_DistributiondistributionFormat>
+        <MD_Distribution REF="xN854935491" />
+        <distributionFormat REF="xN205948383" />
+      </GM03_2_1Core.Core.MD_DistributiondistributionFormat>
+      <GM03_2_1Comprehensive.Comprehensive.MD_Format TID="xN205948383">
+        <name>INTERLIS</name>
+        <version>2</version>
+      </GM03_2_1Comprehensive.Comprehensive.MD_Format>
+      <GM03_2_1Core.Core.MD_DistributiondistributionFormat>
+        <MD_Distribution REF="xN854935491" />
+        <distributionFormat REF="xN564710800" />
+      </GM03_2_1Core.Core.MD_DistributiondistributionFormat>
+      <GM03_2_1Comprehensive.Comprehensive.MD_Format TID="xN564710800">
+        <name>MapInfo .TAB</name>
+        <version>-</version>
+      </GM03_2_1Comprehensive.Comprehensive.MD_Format>
+      <GM03_2_1Comprehensive.Comprehensive.MD_DigitalTransferOptions TID="xN277645981">
+        <MD_Distribution REF="xN854935491" />
+      </GM03_2_1Comprehensive.Comprehensive.MD_DigitalTransferOptions>
+      <GM03_2_1Core.Core.CI_OnlineResource TID="xN643260304">
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <function>information</function>
+        <description>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>Infos zum Bereich Eisenbahn des BAV</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>fr</language>
+                <plainText>Informations sur les tâches de l'OFT dans le domaine chemin de fer.</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>en</language>
+                <plainText>Information about the tasks of the FOT in the railways context.</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>it</language>
+                <plainText>Informazioni sulle attività dell'UFT nel campo delle ferrovie.</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+        </description>
+        <linkage>
+          <GM03_2_1Core.Core.PT_FreeURL>
+            <URLGroup>
+              <GM03_2_1Core.Core.PT_URLGroup>
+                <language>de</language>
+                <plainURL>http://www.bav.admin.ch/org/aufgaben/00510/index.html?</plainURL>
+              </GM03_2_1Core.Core.PT_URLGroup>
+              <GM03_2_1Core.Core.PT_URLGroup>
+                <language>fr</language>
+                <plainURL>http://www.bav.admin.ch/org/aufgaben/00510/index.html?lang=fr</plainURL>
+              </GM03_2_1Core.Core.PT_URLGroup>
+              <GM03_2_1Core.Core.PT_URLGroup>
+                <language>it</language>
+                <plainURL>http://www.bav.admin.ch/org/aufgaben/00510/index.html?lang=it</plainURL>
+              </GM03_2_1Core.Core.PT_URLGroup>
+              <GM03_2_1Core.Core.PT_URLGroup>
+                <language>en</language>
+                <plainURL>http://www.bav.admin.ch/org/aufgaben/00510/index.html?lang=en</plainURL>
+              </GM03_2_1Core.Core.PT_URLGroup>
+            </URLGroup>
+          </GM03_2_1Core.Core.PT_FreeURL>
+        </linkage>
+        <MD_DigitalTransferOptions REF="xN277645981" />
+      </GM03_2_1Core.Core.CI_OnlineResource>
+      <GM03_2_1Core.Core.CI_OnlineResource TID="xN898927091">
+        <protocol>CHTOPO:specialised-geoportal</protocol>
+        <function>information</function>
+        <description>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>Modellbeschreibung und Links zum Datenmodell</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>fr</language>
+                <plainText>Description du modèle et liens pour le téléchargement</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+        </description>
+        <linkage>
+          <GM03_2_1Core.Core.PT_FreeURL>
+            <URLGroup>
+              <GM03_2_1Core.Core.PT_URLGroup>
+                <language>de</language>
+                <plainURL>https://www.bav.admin.ch/bav/de/home/themen/alphabetische-themenliste/geoinformation/geobasisdaten/schienennetz.html</plainURL>
+              </GM03_2_1Core.Core.PT_URLGroup>
+              <GM03_2_1Core.Core.PT_URLGroup>
+                <language>fr</language>
+                <plainURL>https://www.bav.admin.ch/bav/fr/home/themes/liste-alphabetique-des-sujets/geoinformation/geodonnees-de-base/reseau-ferre.html</plainURL>
+              </GM03_2_1Core.Core.PT_URLGroup>
+            </URLGroup>
+          </GM03_2_1Core.Core.PT_FreeURL>
+        </linkage>
+        <MD_DigitalTransferOptions REF="xN277645981" />
+      </GM03_2_1Core.Core.CI_OnlineResource>
+      <GM03_2_1Core.Core.CI_OnlineResource TID="xN1614516347">
+        <protocol>WWW:DOWNLOAD-URL</protocol>
+        <linkage>
+          <GM03_2_1Core.Core.PT_FreeURL>
+            <URLGroup>
+              <GM03_2_1Core.Core.PT_URLGroup>
+                <language>de</language>
+                <plainURL>http://data.geo.admin.ch/ch.bav.schienennetz/</plainURL>
+              </GM03_2_1Core.Core.PT_URLGroup>
+            </URLGroup>
+          </GM03_2_1Core.Core.PT_FreeURL>
+        </linkage>
+        <MD_DigitalTransferOptions REF="xN277645981" />
+      </GM03_2_1Core.Core.CI_OnlineResource>
+      <GM03_2_1Core.Core.MD_Metadatacontact>
+        <contact REF="xN42098468" />
+        <MD_Metadata REF="xN258107591" />
+        <role>
+          <GM03_2_1Core.Core.CI_RoleCode_>
+            <value>pointOfContact</value>
+          </GM03_2_1Core.Core.CI_RoleCode_>
+        </role>
+      </GM03_2_1Core.Core.MD_Metadatacontact>
+      <GM03_2_1Core.Core.CI_ResponsibleParty TID="xN42098468">
+        <individualFirstName>Fredi</individualFirstName>
+        <individualLastName>Dällenbach</individualLastName>
+        <electronicalMailAddress>
+          <GM03_2_1Core.Core.URL_>
+            <value>fredi.daellenbach@bav.admin.ch</value>
+          </GM03_2_1Core.Core.URL_>
+        </electronicalMailAddress>
+        <organisationName>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>en</language>
+                <plainText>Federal Office of Transport</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>Bundesamt für Verkehr</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>fr</language>
+                <plainText>Office fédéral des transports</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>it</language>
+                <plainText>Ufficio federale dei trasporti</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>rm</language>
+                <plainText>Bundesamt für Verkehr</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+        </organisationName>
+        <organisationAcronym>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>en</language>
+                <plainText>FOT</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>BAV</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>fr</language>
+                <plainText>OFT</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>it</language>
+                <plainText>UFT</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>rm</language>
+                <plainText>BAV</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+        </organisationAcronym>
+        <linkage>
+          <GM03_2_1Core.Core.PT_FreeURL>
+            <URLGroup>
+              <GM03_2_1Core.Core.PT_URLGroup>
+                <language>de</language>
+                <plainURL>https://www.bav.admin.ch/bav/de/home.html</plainURL>
+              </GM03_2_1Core.Core.PT_URLGroup>
+              <GM03_2_1Core.Core.PT_URLGroup>
+                <language>en</language>
+                <plainURL>https://www.bav.admin.ch/bav/en/home.html</plainURL>
+              </GM03_2_1Core.Core.PT_URLGroup>
+              <GM03_2_1Core.Core.PT_URLGroup>
+                <language>de</language>
+                <plainURL>https://www.bav.admin.ch/bav/de/home.html</plainURL>
+              </GM03_2_1Core.Core.PT_URLGroup>
+              <GM03_2_1Core.Core.PT_URLGroup>
+                <language>fr</language>
+                <plainURL>https://www.bav.admin.ch/bav/fr/home.html</plainURL>
+              </GM03_2_1Core.Core.PT_URLGroup>
+              <GM03_2_1Core.Core.PT_URLGroup>
+                <language>it</language>
+                <plainURL>https://www.bav.admin.ch/bav/it/home.html</plainURL>
+              </GM03_2_1Core.Core.PT_URLGroup>
+              <GM03_2_1Core.Core.PT_URLGroup>
+                <language>rm</language>
+                <plainURL>https://www.bav.admin.ch/bav/de/home.html</plainURL>
+              </GM03_2_1Core.Core.PT_URLGroup>
+            </URLGroup>
+          </GM03_2_1Core.Core.PT_FreeURL>
+        </linkage>
+        <address REF="xN563595861" />
+        <contactInfo REF="xN11432616" />
+      </GM03_2_1Core.Core.CI_ResponsibleParty>
+      <GM03_2_1Core.Core.CI_Address TID="xN563595861">
+        <postalCode>3003</postalCode>
+        <city>Bern</city>
+        <country>CH</country>
+      </GM03_2_1Core.Core.CI_Address>
+      <GM03_2_1Core.Core.CI_Contact TID="xN11432616" />
+      <GM03_2_1Core.Core.CI_Telephone TID="xN365525948">
+        <number>+41 58 462 57 11</number>
+        <numberType>mainNumber</numberType>
+        <CI_ResponsibleParty REF="xN42098468" />
+      </GM03_2_1Core.Core.CI_Telephone>
+      <GM03_2_1Core.Core.CI_Telephone TID="xN1156251973">
+        <number>+41 58 463 17 84</number>
+        <numberType>directNumber</numberType>
+        <CI_ResponsibleParty REF="xN42098468" />
+      </GM03_2_1Core.Core.CI_Telephone>
+      <GM03_2_1Comprehensive.Comprehensive.MD_VectorSpatialRepresentation TID="xN608191150">
+        <MD_Metadata REF="xN258107591" />
+      </GM03_2_1Comprehensive.Comprehensive.MD_VectorSpatialRepresentation>
+      <GM03_2_1Comprehensive.Comprehensive.MD_GeometricObjects TID="xN1176400436">
+        <geometricObjectType>curve</geometricObjectType>
+        <MD_VectorSpatialRepresentation REF="xN608191150" />
+      </GM03_2_1Comprehensive.Comprehensive.MD_GeometricObjects>
+      <GM03_2_1Core.Core.referenceSystemInfoMD_Metadata>
+        <referenceSystemInfo REF="xw3679224aac27b1" />
+        <MD_Metadata REF="xN258107591" />
+      </GM03_2_1Core.Core.referenceSystemInfoMD_Metadata>
+      <GM03_2_1Core.Core.MD_ReferenceSystem TID="xw3679224aac27b1">
+        <referenceSystemIdentifier REF="xw3679224aac27b1b1b1" />
+      </GM03_2_1Core.Core.MD_ReferenceSystem>
+      <GM03_2_1Comprehensive.Comprehensive.RS_Identifier TID="xw3679224aac27b1b1b1">
+        <code>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>EPSG:21781</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+        </code>
+      </GM03_2_1Comprehensive.Comprehensive.RS_Identifier>
+      <GM03_2_1Comprehensive.Comprehensive.MD_DataIdentification TID="xN1030207695">
+        <status>
+          <GM03_2_1Core.Core.MD_ProgressCode_>
+            <value>onGoing</value>
+          </GM03_2_1Core.Core.MD_ProgressCode_>
+        </status>
+        <abstract>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>fr</language>
+                <plainText>Le jeu de géodonnées de base « réseau ferré » représente le réseau suisse des transports guidéspar rail sous surveillance fédérale. Il comprend les tronçons à voie normale et étroite des chemins de fer, des trams et des chemins de fer à crémaillère sur lesquels des voyageurs sont transportés régulièrement et à titre professionnel ou sur lesquels l’accès au réseau est possible. Il ne contient pas les voies de raccordement ni les tronçons de funiculaires (jeu de données spécial Installations de transport à câbles), modèles réduits, circuits miniatures pour enfants, circuits de chemin de fer ou chemins de fer industriels.</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>Der Basisdatensatz "Schienennetz" bildet das Netz des unter Bundesaufsicht stehenden schienengebundenenVerkehrs der Schweiz ab. Er umfasst die Normal- und Schmalspurstrecken von Eisenbahnen, Trams und Zahnradbahnen, auf denen regelmässig und gewerbsmässig Personen befördert werden oder auf denen der Netzzugang möglich ist. Nicht enthalten sind Anschlussgleise sowie die Strecken der Standseilbahnen (separater Datensatz Seilbahnen), Modellbahnen, Kindereisenbahnen, Rundfahrten-Eisenbahnen und Werkbahnen.</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>en</language>
+                <plainText>The “railway network” basic data set depicts the network of railbound transport under federal supervision in Switzerland. It includes standard-gauge and narrow-gauge lines of railways, trams and rack railways that transport people regularly and for commercial purposes or that enable network access. It does not include sidings or sections of funicular railway (separate ropeway database), model railways, children's railways, railway tours or industrial railways.</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>it</language>
+                <plainText>Il set di dati di base "Rete ferroviaria" riproduce la rete del traffico ferroviario svizzero legato alla rotaia posto sotto la vigilanza della Confederazione. Esso comprende le tratte a scartamento normale e ridotto di ferrovie, tram e ferrovie a cremagliera su cui vengono trasportate regolarmente e a titolo professionale persone o su cui è possibile l'accesso alla rete. Non sono invece inclusi i binari di raccordo nonché le tratte delle funicolari (set di dati separato "Impianti di trasporto a fune"), le ferrovie modello, le ferrovie per bambini, le ferrovie per percorsi circolari e le ferrovie industriali.</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>rm</language>
+                <plainText>L'unitad da datas da basa "Rait da viafier" furma la rait svizra dal traffic da viafier che stat sut la surveglianza da la Confederaziun. Ella cumpiglia ils trajects a binari normal ed a binari stretg da viafiers, da trams e da viafiers a roda dentada, sin ils quals persunas vegnan transportadas regularmain e professiunalmain e sin ils qualas l'access a la rait è pussaivel. Betg cuntegnids n'èn binaris da colliaziun ed er betg ils trajects da las funicularas (unitad da datas separada "Pendicularas"), da viafiers da model, da viafiers d'uffants, da viafiers da cirquit e da viafiers industrialas.</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+        </abstract>
+        <MD_Metadata REF="xN258107591" />
+        <citation REF="xN2142624214" />
+        <language>
+          <CodeISO.LanguageCodeISO_>
+            <value>ERROR_</value>
+          </CodeISO.LanguageCodeISO_>
+        </language>
+        <characterSet>
+          <GM03_2_1Core.Core.MD_CharacterSetCode_>
+            <value>utf8</value>
+          </GM03_2_1Core.Core.MD_CharacterSetCode_>
+        </characterSet>
+        <topicCategory>
+          <GM03_2_1Core.Core.MD_TopicCategoryCode_>
+            <value>transportation</value>
+          </GM03_2_1Core.Core.MD_TopicCategoryCode_>
+        </topicCategory>
+        <basicGeodataID>98.1</basicGeodataID>
+        <basicGeodataIDType>federal</basicGeodataIDType>
+      </GM03_2_1Comprehensive.Comprehensive.MD_DataIdentification>
+      <GM03_2_1Comprehensive.Comprehensive.CI_Citation TID="xN2142624214">
+        <title>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>fr</language>
+                <plainText>Réseau ferré</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>Schienennetz</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>en</language>
+                <plainText>Railway network</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>it</language>
+                <plainText>Rete ferroviaria</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>rm</language>
+                <plainText>Rait da viafier</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+        </title>
+        <alternateTitle>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>fr</language>
+                <plainText>Réseau ferré</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>Schienennetz</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>en</language>
+                <plainText>Railway network</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>it</language>
+                <plainText>Rete ferroviaria</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>rm</language>
+                <plainText>Rait da viafier</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+        </alternateTitle>
+        <collectiveTitle>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>Schienennetz und Haltestellen des öffentlichen Verkehrs</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>fr</language>
+                <plainText>Réseau ferré et arrêts des transports publics</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>it</language>
+                <plainText>Rete ferroviaria e stazioni per i trasporti pubblici</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>en</language>
+                <plainText>Railway network and public transport stops</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+        </collectiveTitle>
+      </GM03_2_1Comprehensive.Comprehensive.CI_Citation>
+      <GM03_2_1Core.Core.CI_Date TID="xw3679224aac29b1b1b1b5b1">
+        <date>2014-01-01</date>
+        <dateType>creation</dateType>
+        <CI_Citation REF="xN2142624214" />
+      </GM03_2_1Core.Core.CI_Date>
+      <GM03_2_1Core.Core.MD_IdentificationpointOfContact>
+        <pointOfContact REF="xN1173143127" />
+        <MD_Identification REF="xN1030207695" />
+        <role>
+          <GM03_2_1Core.Core.CI_RoleCode_>
+            <value>pointOfContact</value>
+          </GM03_2_1Core.Core.CI_RoleCode_>
+        </role>
+      </GM03_2_1Core.Core.MD_IdentificationpointOfContact>
+      <GM03_2_1Core.Core.CI_ResponsibleParty TID="xN1173143127">
+        <individualFirstName>Markus</individualFirstName>
+        <individualLastName>Giger</individualLastName>
+        <electronicalMailAddress>
+          <GM03_2_1Core.Core.URL_>
+            <value>markus.giger@bav.admin.ch</value>
+          </GM03_2_1Core.Core.URL_>
+        </electronicalMailAddress>
+        <organisationName>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>en</language>
+                <plainText>Federal Office of Transport</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>Bundesamt für Verkehr</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>fr</language>
+                <plainText>Office fédéral des transports</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>it</language>
+                <plainText>Ufficio federale dei trasporti</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+        </organisationName>
+        <organisationAcronym>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>en</language>
+                <plainText>FOT</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>BAV</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>fr</language>
+                <plainText>OFT</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>it</language>
+                <plainText>UFT</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+        </organisationAcronym>
+        <linkage>
+          <GM03_2_1Core.Core.PT_FreeURL>
+            <URLGroup>
+              <GM03_2_1Core.Core.PT_URLGroup>
+                <language>de</language>
+                <plainURL>https://www.bav.admin.ch/bav/de/home.html</plainURL>
+              </GM03_2_1Core.Core.PT_URLGroup>
+              <GM03_2_1Core.Core.PT_URLGroup>
+                <language>de</language>
+                <plainURL>https://www.bav.admin.ch/bav/de/home.html</plainURL>
+              </GM03_2_1Core.Core.PT_URLGroup>
+              <GM03_2_1Core.Core.PT_URLGroup>
+                <language>en</language>
+                <plainURL>https://www.bav.admin.ch/bav/en/home.html</plainURL>
+              </GM03_2_1Core.Core.PT_URLGroup>
+              <GM03_2_1Core.Core.PT_URLGroup>
+                <language>rm</language>
+                <plainURL>https://www.bav.admin.ch/bav/de/home.html</plainURL>
+              </GM03_2_1Core.Core.PT_URLGroup>
+              <GM03_2_1Core.Core.PT_URLGroup>
+                <language>fr</language>
+                <plainURL>https://www.bav.admin.ch/bav/fr/home.html</plainURL>
+              </GM03_2_1Core.Core.PT_URLGroup>
+              <GM03_2_1Core.Core.PT_URLGroup>
+                <language>it</language>
+                <plainURL>https://www.bav.admin.ch/bav/it/home.html</plainURL>
+              </GM03_2_1Core.Core.PT_URLGroup>
+            </URLGroup>
+          </GM03_2_1Core.Core.PT_FreeURL>
+        </linkage>
+        <address REF="xN1588583430" />
+        <contactInfo REF="xN302053568" />
+      </GM03_2_1Core.Core.CI_ResponsibleParty>
+      <GM03_2_1Core.Core.CI_Address TID="xN1588583430">
+        <postalCode>3003</postalCode>
+        <city>Bern</city>
+      </GM03_2_1Core.Core.CI_Address>
+      <GM03_2_1Core.Core.CI_Contact TID="xN302053568" />
+      <GM03_2_1Core.Core.CI_Telephone TID="xN2014442730">
+        <number>058 464 48 81</number>
+        <numberType>mainNumber</numberType>
+        <CI_ResponsibleParty REF="xN1173143127" />
+      </GM03_2_1Core.Core.CI_Telephone>
+      <GM03_2_1Core.Core.CI_Telephone TID="xN1682618877">
+        <number>058 462 57 39</number>
+        <numberType>directNumber</numberType>
+        <CI_ResponsibleParty REF="xN1173143127" />
+      </GM03_2_1Core.Core.CI_Telephone>
+      <GM03_2_1Core.Core.MD_IdentificationpointOfContact>
+        <pointOfContact REF="xN1488908549" />
+        <MD_Identification REF="xN1030207695" />
+        <role>
+          <GM03_2_1Core.Core.CI_RoleCode_>
+            <value>owner</value>
+          </GM03_2_1Core.Core.CI_RoleCode_>
+        </role>
+      </GM03_2_1Core.Core.MD_IdentificationpointOfContact>
+      <GM03_2_1Core.Core.CI_ResponsibleParty TID="xN1488908549">
+        <electronicalMailAddress>
+          <GM03_2_1Core.Core.URL_>
+            <value>info@bav.admin.ch</value>
+          </GM03_2_1Core.Core.URL_>
+        </electronicalMailAddress>
+        <organisationName>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>Bundesamt für Verkehr</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>fr</language>
+                <plainText>Office fédéral des transports</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>it</language>
+                <plainText>Ufficio federale dei trasporti</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>en</language>
+                <plainText>Federal Office of Transport</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>rm</language>
+                <plainText>Bundesamt für Verkehr</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+        </organisationName>
+        <organisationAcronym>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>it</language>
+                <plainText>UFT</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>rm</language>
+                <plainText>BAV</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>fr</language>
+                <plainText>OFT</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>en</language>
+                <plainText>FOT</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>BAV</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+        </organisationAcronym>
+        <linkage>
+          <GM03_2_1Core.Core.PT_FreeURL>
+            <URLGroup>
+              <GM03_2_1Core.Core.PT_URLGroup>
+                <language>de</language>
+                <plainURL>https://www.bav.admin.ch/bav/de/home.html</plainURL>
+              </GM03_2_1Core.Core.PT_URLGroup>
+              <GM03_2_1Core.Core.PT_URLGroup>
+                <language>en</language>
+                <plainURL>https://www.bav.admin.ch/bav/en/home.html</plainURL>
+              </GM03_2_1Core.Core.PT_URLGroup>
+              <GM03_2_1Core.Core.PT_URLGroup>
+                <language>de</language>
+                <plainURL>https://www.bav.admin.ch/bav/de/home.html</plainURL>
+              </GM03_2_1Core.Core.PT_URLGroup>
+              <GM03_2_1Core.Core.PT_URLGroup>
+                <language>fr</language>
+                <plainURL>https://www.bav.admin.ch/bav/fr/home.html</plainURL>
+              </GM03_2_1Core.Core.PT_URLGroup>
+              <GM03_2_1Core.Core.PT_URLGroup>
+                <language>it</language>
+                <plainURL>https://www.bav.admin.ch/bav/it/home.html</plainURL>
+              </GM03_2_1Core.Core.PT_URLGroup>
+            </URLGroup>
+          </GM03_2_1Core.Core.PT_FreeURL>
+        </linkage>
+        <address REF="xN497751882" />
+        <contactInfo REF="xN483298774" />
+      </GM03_2_1Core.Core.CI_ResponsibleParty>
+      <GM03_2_1Core.Core.CI_Address TID="xN497751882">
+        <streetName>Mühlestrasse</streetName>
+        <streetNumber>6</streetNumber>
+        <postalCode>3003</postalCode>
+        <city>Bern</city>
+        <country>CH</country>
+      </GM03_2_1Core.Core.CI_Address>
+      <GM03_2_1Core.Core.CI_Contact TID="xN483298774" />
+      <GM03_2_1Core.Core.CI_Telephone TID="xN1366734264">
+        <number>Tel. +41 58 462 57 11</number>
+        <numberType>mainNumber</numberType>
+        <CI_ResponsibleParty REF="xN1488908549" />
+      </GM03_2_1Core.Core.CI_Telephone>
+      <GM03_2_1Comprehensive.Comprehensive.MD_MaintenanceInformation TID="xN980225213">
+        <maintenanceAndUpdateFrequency>annually</maintenanceAndUpdateFrequency>
+        <MD_Identification REF="xN1030207695" />
+      </GM03_2_1Comprehensive.Comprehensive.MD_MaintenanceInformation>
+      <GM03_2_1Core.Core.descriptiveKeywordsMD_Identification>
+        <descriptiveKeywords REF="xN871775709" />
+        <MD_Identification REF="xN1030207695" />
+      </GM03_2_1Core.Core.descriptiveKeywordsMD_Identification>
+      <GM03_2_1Core.Core.MD_Keywords TID="xN871775709">
+        <keyword>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>opendata.swiss</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>fr</language>
+                <plainText>opendata.swiss</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>it</language>
+                <plainText>opendata.swiss</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>en</language>
+                <plainText>opendata.swiss</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>rm</language>
+                <plainText>opendata.swiss</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>Eisenbahnlinie</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>fr</language>
+                <plainText>ligne de chemin de fer</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>it</language>
+                <plainText>linea di ferrovia</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>en</language>
+                <plainText>railway track</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>Geobasisdaten</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>fr</language>
+                <plainText>géodonnée de base</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>it</language>
+                <plainText>geodati di base</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>en</language>
+                <plainText>official geodata</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>Aufbewahrungs- und Archivierungsplanung AAP - Bund</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>fr</language>
+                <plainText>Planification de la conservation et de l'archivage AAP - Conféderation</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>it</language>
+                <plainText>Pianificazione della conservazione e dell’archiviazione AAP - Confederazione</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>en</language>
+                <plainText>Conservation and archiving planning AAP - Confederation</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+        </keyword>
+        <thesaurus REF="xN743795562" />
+      </GM03_2_1Core.Core.MD_Keywords>
+      <GM03_2_1Core.Core.MD_Thesaurus TID="xN743795562">
+        <citation REF="xN812549802" />
+      </GM03_2_1Core.Core.MD_Thesaurus>
+      <GM03_2_1Comprehensive.Comprehensive.CI_Citation TID="xN812549802">
+        <title>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>geocat.ch</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+        </title>
+      </GM03_2_1Comprehensive.Comprehensive.CI_Citation>
+      <GM03_2_1Core.Core.CI_Date TID="xw3679224aac29b1c13ab5ab1a">
+        <date>2018-01-09</date>
+        <dateType>publication</dateType>
+        <CI_Citation REF="xN812549802" />
+      </GM03_2_1Core.Core.CI_Date>
+      <GM03_2_1Comprehensive.Comprehensive.CI_Citationidentifier>
+        <identifier REF="xN2140294534" />
+        <CI_Citation REF="xN812549802" />
+      </GM03_2_1Comprehensive.Comprehensive.CI_Citationidentifier>
+      <GM03_2_1Core.Core.MD_Identifier TID="xN2140294534">
+        <code>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>geonetwork.thesaurus.local.theme.geocat.ch</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+        </code>
+      </GM03_2_1Core.Core.MD_Identifier>
+      <GM03_2_1Core.Core.descriptiveKeywordsMD_Identification>
+        <descriptiveKeywords REF="xN1022591866" />
+        <MD_Identification REF="xN1030207695" />
+      </GM03_2_1Core.Core.descriptiveKeywordsMD_Identification>
+      <GM03_2_1Core.Core.MD_Keywords TID="xN1022591866">
+        <keyword>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>Eisenbahn</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>fr</language>
+                <plainText>voie ferrée</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>it</language>
+                <plainText>ferrovia</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>en</language>
+                <plainText>railway</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+        </keyword>
+        <thesaurus REF="xN252249971" />
+      </GM03_2_1Core.Core.MD_Keywords>
+      <GM03_2_1Core.Core.MD_Thesaurus TID="xN252249971">
+        <citation REF="xN100547716" />
+      </GM03_2_1Core.Core.MD_Thesaurus>
+      <GM03_2_1Comprehensive.Comprehensive.CI_Citation TID="xN100547716">
+        <title>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>GEMET</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+        </title>
+      </GM03_2_1Comprehensive.Comprehensive.CI_Citation>
+      <GM03_2_1Core.Core.CI_Date TID="xw3679224aac29b1c15ab2ab1a">
+        <date>2017-12-07</date>
+        <dateType>publication</dateType>
+        <CI_Citation REF="xN100547716" />
+      </GM03_2_1Core.Core.CI_Date>
+      <GM03_2_1Comprehensive.Comprehensive.CI_Citationidentifier>
+        <identifier REF="xN1103373466" />
+        <CI_Citation REF="xN100547716" />
+      </GM03_2_1Comprehensive.Comprehensive.CI_Citationidentifier>
+      <GM03_2_1Core.Core.MD_Identifier TID="xN1103373466">
+        <code>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>geonetwork.thesaurus.external.theme.gemet</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+        </code>
+      </GM03_2_1Core.Core.MD_Identifier>
+      <GM03_2_1Comprehensive.Comprehensive.resourceConstraintsMD_Identification>
+        <resourceConstraints REF="xN1609025076" />
+        <MD_Identification REF="xN1030207695" />
+      </GM03_2_1Comprehensive.Comprehensive.resourceConstraintsMD_Identification>
+      <GM03_2_1Comprehensive.Comprehensive.MD_LegalConstraints TID="xN1609025076">
+        <useConstraints>
+          <GM03_2_1Comprehensive.Comprehensive.MD_RestrictionCode_>
+            <value>otherRestrictions</value>
+          </GM03_2_1Comprehensive.Comprehensive.MD_RestrictionCode_>
+        </useConstraints>
+        <otherConstraints>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>http://www.disclaimer.admin.ch/index.html</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>fr</language>
+                <plainText>http://www.disclaimer.admin.ch/index.html</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>en</language>
+                <plainText>http://www.disclaimer.admin.ch/index.html</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>it</language>
+                <plainText>http://www.disclaimer.admin.ch/index.html</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+        </otherConstraints>
+      </GM03_2_1Comprehensive.Comprehensive.MD_LegalConstraints>
+      <GM03_2_1Core.Core.EX_Extent TID="xN1084785800">
+        <description>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>en</language>
+                <plainText>Switzerland (extent of the railway network with areas close to the border)</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>Schweiz (mit grenznahem Ausland)</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>fr</language>
+                <plainText>Suisse (extension du réseau ferré avec l'étranger près de la frontière)</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>it</language>
+                <plainText>Svizzera (estensione della rete ferroviaria con parziale copertura oltre frontiera)</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>rm</language>
+                <plainText>Switzerland (extent of the railway network with areas close to the border)</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+        </description>
+        <MD_DataIdentification REF="xN1030207695" />
+      </GM03_2_1Core.Core.EX_Extent>
+      <GM03_2_1Core.Core.EX_ExtentgeographicElement>
+        <EX_Extent REF="xN1084785800" />
+        <geographicElement REF="xN1161375617" />
+      </GM03_2_1Core.Core.EX_ExtentgeographicElement>
+      <GM03_2_1Core.Core.EX_GeographicDescription TID="xN1161375617">
+        <geographicIdentifier REF="xN1397386665" />
+      </GM03_2_1Core.Core.EX_GeographicDescription>
+      <GM03_2_1Core.Core.MD_Identifier TID="xN1397386665">
+        <code>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>en</language>
+                <plainText>CH</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>CH</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>fr</language>
+                <plainText>CH</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>it</language>
+                <plainText>CH</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>rm</language>
+                <plainText>CH</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+        </code>
+      </GM03_2_1Core.Core.MD_Identifier>
+      <GM03_2_1Core.Core.EX_ExtentgeographicElement>
+        <EX_Extent REF="xN1084785800" />
+        <geographicElement REF="xN142958016" />
+      </GM03_2_1Core.Core.EX_ExtentgeographicElement>
+      <GM03_2_1Core.Core.EX_GeographicBoundingBox TID="xN142958016">
+        <northBoundLatitude>47.8389915641108</northBoundLatitude>
+        <southBoundLatitude>45.6939911225504</southBoundLatitude>
+        <eastBoundLongitude>10.6429883601277</eastBoundLongitude>
+        <westBoundLongitude>5.83599354331156</westBoundLongitude>
+      </GM03_2_1Core.Core.EX_GeographicBoundingBox>
+      <GM03_2_1Core.Core.EX_ExtentgeographicElement>
+        <EX_Extent REF="xN1084785800" />
+        <geographicElement REF="xN785612885" />
+      </GM03_2_1Core.Core.EX_ExtentgeographicElement>
+      <GM03_2_1Core.Core.EX_BoundingPolygon TID="xN785612885">
+        <polygon>
+          <SURFACE>
+            <BOUNDARY>
+              <POLYLINE>
+                <COORD>
+                  <C1>5.896989</C1>
+                  <C2>45.725993</C2>
+                </COORD>
+                <COORD>
+                  <C1>5.835994</C1>
+                  <C2>47.838992</C2>
+                </COORD>
+                <COORD>
+                  <C1>10.642988</C1>
+                  <C2>47.805997</C2>
+                </COORD>
+                <COORD>
+                  <C1>10.519999</C1>
+                  <C2>45.693991</C2>
+                </COORD>
+                <COORD>
+                  <C1>5.896989</C1>
+                  <C2>45.725993</C2>
+                </COORD>
+              </POLYLINE>
+            </BOUNDARY>
+          </SURFACE>
+        </polygon>
+      </GM03_2_1Core.Core.EX_BoundingPolygon>
+      <GM03_2_1Comprehensive.Comprehensive.MD_MetadatalegislationInformation>
+        <MD_Metadata REF="xN258107591" />
+        <legislationInformation REF="xw3679224aac33b1" />
+      </GM03_2_1Comprehensive.Comprehensive.MD_MetadatalegislationInformation>
+      <GM03_2_1Comprehensive.Comprehensive.MD_Legislation TID="xw3679224aac33b1">
+        <country>
+          <CodeISO.CountryCodeISO_>
+            <value>CH</value>
+          </CodeISO.CountryCodeISO_>
+        </country>
+        <language>
+          <CodeISO.LanguageCodeISO_>
+            <value>de</value>
+          </CodeISO.LanguageCodeISO_>
+          <CodeISO.LanguageCodeISO_>
+            <value>fr</value>
+          </CodeISO.LanguageCodeISO_>
+          <CodeISO.LanguageCodeISO_>
+            <value>it</value>
+          </CodeISO.LanguageCodeISO_>
+        </language>
+        <legislationType>nationalDecree</legislationType>
+        <internalReference>
+          <GM03_2_1Core.Core.CharacterString_>
+            <value>510.620</value>
+          </GM03_2_1Core.Core.CharacterString_>
+        </internalReference>
+        <title REF="xN907708505" />
+      </GM03_2_1Comprehensive.Comprehensive.MD_Legislation>
+      <GM03_2_1Comprehensive.Comprehensive.CI_Citation TID="xN907708505">
+        <title>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>Verordnung über Geoinformation : Anhang 1, Katalog der Geobasisdaten des Bundesrechts</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>fr</language>
+                <plainText>Ordonnance sur la géoinformation : Annexe 1, Catalogue des géodonnées de base relevant du droit fédéral</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>it</language>
+                <plainText>Ordinanza sulla geoinformazione : Allegato 1, Catalogo dei geodati di base del diritto federale</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+        </title>
+        <alternateTitle>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>Geoinformationsverordnung GeoIV</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>fr</language>
+                <plainText>OGéo</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>it</language>
+                <plainText>OGI</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+        </alternateTitle>
+      </GM03_2_1Comprehensive.Comprehensive.CI_Citation>
+      <GM03_2_1Core.Core.CI_Date TID="xw3679224aac33b1c13b1b5b1">
+        <date>2008-05-21</date>
+        <dateType>creation</dateType>
+        <CI_Citation REF="xN907708505" />
+      </GM03_2_1Core.Core.CI_Date>
+      <GM03_2_1Core.Core.CI_Date TID="xw3679224aac33b1c13b1b7b1">
+        <date>2008-07-01</date>
+        <dateType>publication</dateType>
+        <CI_Citation REF="xN907708505" />
+      </GM03_2_1Core.Core.CI_Date>
+      <GM03_2_1Comprehensive.Comprehensive.MD_MetadatalegislationInformation>
+        <MD_Metadata REF="xN258107591" />
+        <legislationInformation REF="xw3679224aac35b1" />
+      </GM03_2_1Comprehensive.Comprehensive.MD_MetadatalegislationInformation>
+      <GM03_2_1Comprehensive.Comprehensive.MD_Legislation TID="xw3679224aac35b1">
+        <country>
+          <CodeISO.CountryCodeISO_>
+            <value>CH</value>
+          </CodeISO.CountryCodeISO_>
+        </country>
+        <language>
+          <CodeISO.LanguageCodeISO_>
+            <value>de</value>
+          </CodeISO.LanguageCodeISO_>
+          <CodeISO.LanguageCodeISO_>
+            <value>fr</value>
+          </CodeISO.LanguageCodeISO_>
+          <CodeISO.LanguageCodeISO_>
+            <value>it</value>
+          </CodeISO.LanguageCodeISO_>
+        </language>
+        <legislationType>nationalDecree</legislationType>
+        <internalReference>
+          <GM03_2_1Core.Core.CharacterString_>
+            <value>742.121</value>
+          </GM03_2_1Core.Core.CharacterString_>
+        </internalReference>
+        <title REF="xN667689172" />
+      </GM03_2_1Comprehensive.Comprehensive.MD_Legislation>
+      <GM03_2_1Comprehensive.Comprehensive.CI_Citation TID="xN667689172">
+        <title>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>Verordnung über die Konzessionierung von Eisenbahninfrastrukturen</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>fr</language>
+                <plainText>Ordonnance sur l'octroi de concessions pour les infrastructures ferroviaires</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>it</language>
+                <plainText>Ordinanza sul rilascio di concessioni per l'infrastruttura ferroviaria</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+        </title>
+        <alternateTitle>
+          <GM03_2_1Core.Core.PT_FreeText>
+            <textGroup>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>de</language>
+                <plainText>VKE</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>fr</language>
+                <plainText>OCIF</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+              <GM03_2_1Core.Core.PT_Group>
+                <language>it</language>
+                <plainText>OCIF</plainText>
+              </GM03_2_1Core.Core.PT_Group>
+            </textGroup>
+          </GM03_2_1Core.Core.PT_FreeText>
+        </alternateTitle>
+      </GM03_2_1Comprehensive.Comprehensive.CI_Citation>
+      <GM03_2_1Core.Core.CI_Date TID="xw3679224aac35b1c13b1b5b1">
+        <date>1998-11-25</date>
+        <dateType>publication</dateType>
+        <CI_Citation REF="xN667689172" />
+      </GM03_2_1Core.Core.CI_Date>
+    </GM03_2_1Comprehensive.Comprehensive>
+  </DATASECTION>
+</TRANSFER>
+

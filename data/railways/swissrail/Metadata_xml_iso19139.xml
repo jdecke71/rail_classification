@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                 xmlns:che="http://www.geocat.ch/2008/che"
+                 xmlns:srv="http://www.isotc211.org/2005/srv"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:gco="http://www.isotc211.org/2005/gco"
+                 xmlns:geonet="http://www.fao.org/geonetwork"
+                 xmlns:fra="http://www.cnig.gouv.fr/2005/fra"
+                 xmlns:java="java:org.fao.geonet.util.XslUtil">
+   <gmd:fileIdentifier xmlns:gmx="http://www.isotc211.org/2005/gmx"
+                       xmlns:gts="http://www.isotc211.org/2005/gts"
+                       xmlns:gml="http://www.opengis.net/gml"
+                       xmlns:xlink="http://www.w3.org/1999/xlink">
+      <gco:CharacterString>4545b545-cdc9-4713-809c-210ee84436b0</gco:CharacterString>
+  </gmd:fileIdentifier>
+   <gmd:language xmlns:gmx="http://www.isotc211.org/2005/gmx"
+                 xmlns:gts="http://www.isotc211.org/2005/gts"
+                 xmlns:gml="http://www.opengis.net/gml"
+                 xmlns:xlink="http://www.w3.org/1999/xlink">
+      <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="ger"/>
+  </gmd:language>
+   <gmd:characterSet xmlns:gmx="http://www.isotc211.org/2005/gmx"
+                     xmlns:gts="http://www.isotc211.org/2005/gts"
+                     xmlns:gml="http://www.opengis.net/gml"
+                     xmlns:xlink="http://www.w3.org/1999/xlink">
+      <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+                               codeListValue="utf8"/>
+  </gmd:characterSet>
+   <gmd:hierarchyLevel xmlns:gmx="http://www.isotc211.org/2005/gmx"
+                       xmlns:gts="http://www.isotc211.org/2005/gts"
+                       xmlns:gml="http://www.opengis.net/gml"
+                       xmlns:xlink="http://www.w3.org/1999/xlink">
+      <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode"
+                        codeListValue="dataset"/>
+  </gmd:hierarchyLevel>
+   <gmd:contact xmlns:gmx="http://www.isotc211.org/2005/gmx"
+                xmlns:gts="http://www.isotc211.org/2005/gts"
+                xmlns:gml="http://www.opengis.net/gml"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+      <gmd:CI_ResponsibleParty>
+         <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Bundesamt für Verkehr</gco:CharacterString>
+            <gmd:PT_FreeText>
+               <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#EN">Federal Office of Transport</gmd:LocalisedCharacterString>
+               </gmd:textGroup>
+               <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#DE">Bundesamt für Verkehr</gmd:LocalisedCharacterString>
+               </gmd:textGroup>
+               <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">Office fédéral des transports</gmd:LocalisedCharacterString>
+               </gmd:textGroup>
+               <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#IT">Ufficio federale dei trasporti</gmd:LocalisedCharacterString>
+               </gmd:textGroup>
+               <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#RM">Bundesamt für Verkehr</gmd:LocalisedCharacterString>
+               </gmd:textGroup>
+            </gmd:PT_FreeText>
+         </gmd:organisationName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:phone>
+                  <gmd:CI_Telephone>
+                     <gmd:voice>
+                        <gco:CharacterString>+41 58 462 57 11</gco:CharacterString>
+                     </gmd:voice>
+                  </gmd:CI_Telephone>
+               </gmd:phone>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:city>
+                        <gco:CharacterString>Bern</gco:CharacterString>
+                     </gmd:city>
+                     <gmd:postalCode>
+                        <gco:CharacterString>3003</gco:CharacterString>
+                     </gmd:postalCode>
+                     <gmd:country>
+                        <gco:CharacterString>CH</gco:CharacterString>
+                     </gmd:country>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>fredi.daellenbach@bav.admin.ch</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+               <gmd:onlineResource>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage/>
+                     <gmd:protocol>
+                        <gco:CharacterString>text/html</gco:CharacterString>
+                     </gmd:protocol>
+                  </gmd:CI_OnlineResource>
+               </gmd:onlineResource>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"
+                             codeListValue="pointOfContact"/>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+   </gmd:contact>
+   <gmd:dateStamp xmlns:gmx="http://www.isotc211.org/2005/gmx"
+                  xmlns:gts="http://www.isotc211.org/2005/gts"
+                  xmlns:gml="http://www.opengis.net/gml"
+                  xmlns:xlink="http://www.w3.org/1999/xlink">
+      <gco:DateTime>2017-12-11T10:34:14</gco:DateTime>
+  </gmd:dateStamp>
+   <gmd:metadataStandardName xmlns:gmx="http://www.isotc211.org/2005/gmx"
+                             xmlns:gts="http://www.isotc211.org/2005/gts"
+                             xmlns:gml="http://www.opengis.net/gml"
+                             xmlns:xlink="http://www.w3.org/1999/xlink">
+      <gco:CharacterString>GM03_2</gco:CharacterString>
+  </gmd:metadataStandardName>
+   <gmd:locale xmlns:gmx="http://www.isotc211.org/2005/gmx"
+               xmlns:gts="http://www.isotc211.org/2005/gts"
+               xmlns:gml="http://www.opengis.net/gml"
+               xmlns:xlink="http://www.w3.org/1999/xlink">
+      <gmd:PT_Locale id="FR">
+         <gmd:languageCode>
+            <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre"/>
+         </gmd:languageCode>
+         <gmd:characterEncoding>
+            <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+                                     codeListValue="utf8"/>
+         </gmd:characterEncoding>
+      </gmd:PT_Locale>
+  </gmd:locale>
+   <gmd:locale xmlns:gmx="http://www.isotc211.org/2005/gmx"
+               xmlns:gts="http://www.isotc211.org/2005/gts"
+               xmlns:gml="http://www.opengis.net/gml"
+               xmlns:xlink="http://www.w3.org/1999/xlink">
+      <gmd:PT_Locale id="IT">
+         <gmd:languageCode>
+            <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="ita"/>
+         </gmd:languageCode>
+         <gmd:characterEncoding>
+            <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+                                     codeListValue="utf8"/>
+         </gmd:characterEncoding>
+      </gmd:PT_Locale>
+  </gmd:locale>
+   <gmd:locale xmlns:gmx="http://www.isotc211.org/2005/gmx"
+               xmlns:gts="http://www.isotc211.org/2005/gts"
+               xmlns:gml="http://www.opengis.net/gml"
+               xmlns:xlink="http://www.w3.org/1999/xlink">
+      <gmd:PT_Locale id="EN">
+         <gmd:languageCode>
+            <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng"/>
+         </gmd:languageCode>
+         <gmd:characterEncoding>
+            <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+                                     codeListValue="utf8"/>
+         </gmd:characterEncoding>
+      </gmd:PT_Locale>
+  </gmd:locale>
+   <gmd:locale xmlns:gmx="http://www.isotc211.org/2005/gmx"
+               xmlns:gts="http://www.isotc211.org/2005/gts"
+               xmlns:gml="http://www.opengis.net/gml"
+               xmlns:xlink="http://www.w3.org/1999/xlink">
+      <gmd:PT_Locale id="RM">
+         <gmd:languageCode>
+            <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="roh"/>
+         </gmd:languageCode>
+         <gmd:characterEncoding>
+            <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+                                     codeListValue="utf8"/>
+         </gmd:characterEncoding>
+      </gmd:PT_Locale>
+  </gmd:locale>
+   <gmd:locale xmlns:gmx="http://www.isotc211.org/2005/gmx"
+               xmlns:gts="http://www.isotc211.org/2005/gts"
+               xmlns:gml="http://www.opengis.net/gml"
+               xmlns:xlink="http://www.w3.org/1999/xlink">
+      <gmd:PT_Locale id="DE">
+         <gmd:languageCode>
+            <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="ger"/>
+         </gmd:languageCode>
+         <gmd:characterEncoding>
+            <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+                                     codeListValue="utf8"/>
+         </gmd:characterEncoding>
+      </gmd:PT_Locale>
+  </gmd:locale>
+   <gmd:spatialRepresentationInfo xmlns:gmx="http://www.isotc211.org/2005/gmx"
+                                  xmlns:gts="http://www.isotc211.org/2005/gts"
+                                  xmlns:gml="http://www.opengis.net/gml"
+                                  xmlns:xlink="http://www.w3.org/1999/xlink">
+      <gmd:MD_VectorSpatialRepresentation>
+         <gmd:geometricObjects>
+            <gmd:MD_GeometricObjects>
+               <gmd:geometricObjectType>
+                  <gmd:MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode"
+                                                  codeListValue="curve"/>
+               </gmd:geometricObjectType>
+            </gmd:MD_GeometricObjects>
+         </gmd:geometricObjects>
+      </gmd:MD_VectorSpatialRepresentation>
+  </gmd:spatialRepresentationInfo>
+   <gmd:referenceSystemInfo xmlns:gmx="http://www.isotc211.org/2005/gmx"
+                            xmlns:gts="http://www.isotc211.org/2005/gts"
+                            xmlns:gml="http://www.opengis.net/gml"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+      <gmd:MD_ReferenceSystem>
+         <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier>
+               <gmd:code xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>EPSG:21781</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#DE">EPSG:21781</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                  </gmd:PT_FreeText>
+               </gmd:code>
+            </gmd:RS_Identifier>
+         </gmd:referenceSystemIdentifier>
+      </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+   <gmd:identificationInfo xmlns:gmx="http://www.isotc211.org/2005/gmx"
+                           xmlns:gts="http://www.isotc211.org/2005/gts"
+                           xmlns:gml="http://www.opengis.net/gml"
+                           xmlns:xlink="http://www.w3.org/1999/xlink">
+      <gmd:MD_DataIdentification>
+         <gmd:citation>
+            <gmd:CI_Citation>
+               <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>Schienennetz</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#FR">Réseau ferré</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#DE">Schienennetz</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#EN">Railway network</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#IT">Rete ferroviaria</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#RM">Rait da viafier</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                  </gmd:PT_FreeText>
+               </gmd:title>
+               <gmd:alternateTitle xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>Schienennetz</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#FR">Réseau ferré</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#DE">Schienennetz</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#EN">Railway network</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#IT">Rete ferroviaria</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#RM">Rait da viafier</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                  </gmd:PT_FreeText>
+               </gmd:alternateTitle>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:DateTime>2014-01-01T00:00:00</gco:DateTime>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="creation"/>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:collectiveTitle xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>Schienennetz und Haltestellen des öffentlichen Verkehrs</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#DE">Schienennetz und Haltestellen des öffentlichen Verkehrs</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#FR">Réseau ferré et arrêts des transports publics</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#IT">Rete ferroviaria e stazioni per i trasporti pubblici</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#EN">Railway network and public transport stops</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                  </gmd:PT_FreeText>
+               </gmd:collectiveTitle>
+            </gmd:CI_Citation>
+         </gmd:citation>
+         <gmd:abstract xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Der Basisdatensatz "Schienennetz" bildet das Netz des unter Bundesaufsicht stehenden schienengebundenenVerkehrs der Schweiz ab. Er umfasst die Normal- und Schmalspurstrecken von Eisenbahnen, Trams und Zahnradbahnen, auf denen regelmässig und gewerbsmässig Personen befördert werden oder auf denen der Netzzugang möglich ist. Nicht enthalten sind Anschlussgleise sowie die Strecken der Standseilbahnen (separater Datensatz Seilbahnen), Modellbahnen, Kindereisenbahnen, Rundfahrten-Eisenbahnen und Werkbahnen.</gco:CharacterString>
+            <gmd:PT_FreeText>
+               <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#FR">Le jeu de géodonnées de base « réseau ferré » représente le réseau suisse des transports guidéspar rail sous surveillance fédérale. Il comprend les tronçons à voie normale et étroite des chemins de fer, des trams et des chemins de fer à crémaillère sur lesquels des voyageurs sont transportés régulièrement et à titre professionnel ou sur lesquels l’accès au réseau est possible. Il ne contient pas les voies de raccordement ni les tronçons de funiculaires (jeu de données spécial Installations de transport à câbles), modèles réduits, circuits miniatures pour enfants, circuits de chemin de fer ou chemins de fer industriels.</gmd:LocalisedCharacterString>
+               </gmd:textGroup>
+               <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#DE">Der Basisdatensatz "Schienennetz" bildet das Netz des unter Bundesaufsicht stehenden schienengebundenenVerkehrs der Schweiz ab. Er umfasst die Normal- und Schmalspurstrecken von Eisenbahnen, Trams und Zahnradbahnen, auf denen regelmässig und gewerbsmässig Personen befördert werden oder auf denen der Netzzugang möglich ist. Nicht enthalten sind Anschlussgleise sowie die Strecken der Standseilbahnen (separater Datensatz Seilbahnen), Modellbahnen, Kindereisenbahnen, Rundfahrten-Eisenbahnen und Werkbahnen.</gmd:LocalisedCharacterString>
+               </gmd:textGroup>
+               <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#EN">The “railway network” basic data set depicts the network of railbound transport under federal supervision in Switzerland. It includes standard-gauge and narrow-gauge lines of railways, trams and rack railways that transport people regularly and for commercial purposes or that enable network access. It does not include sidings or sections of funicular railway (separate ropeway database), model railways, children's railways, railway tours or industrial railways.</gmd:LocalisedCharacterString>
+               </gmd:textGroup>
+               <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#IT">Il set di dati di base "Rete ferroviaria" riproduce la rete del traffico ferroviario svizzero legato alla rotaia posto sotto la vigilanza della Confederazione. Esso comprende le tratte a scartamento normale e ridotto di ferrovie, tram e ferrovie a cremagliera su cui vengono trasportate regolarmente e a titolo professionale persone o su cui è possibile l'accesso alla rete. Non sono invece inclusi i binari di raccordo nonché le tratte delle funicolari (set di dati separato "Impianti di trasporto a fune"), le ferrovie modello, le ferrovie per bambini, le ferrovie per percorsi circolari e le ferrovie industriali.</gmd:LocalisedCharacterString>
+               </gmd:textGroup>
+               <gmd:textGroup>
+                  <gmd:LocalisedCharacterString locale="#RM">L'unitad da datas da basa "Rait da viafier" furma la rait svizra dal traffic da viafier che stat sut la surveglianza da la Confederaziun. Ella cumpiglia ils trajects a binari normal ed a binari stretg da viafiers, da trams e da viafiers a roda dentada, sin ils quals persunas vegnan transportadas regularmain e professiunalmain e sin ils qualas l'access a la rait è pussaivel. Betg cuntegnids n'èn binaris da colliaziun ed er betg ils trajects da las funicularas (unitad da datas separada "Pendicularas"), da viafiers da model, da viafiers d'uffants, da viafiers da cirquit e da viafiers industrialas.</gmd:LocalisedCharacterString>
+               </gmd:textGroup>
+            </gmd:PT_FreeText>
+         </gmd:abstract>
+         <gmd:status>
+            <gmd:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ProgressCode"
+                                 codeListValue="onGoing"/>
+         </gmd:status>
+         <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>Bundesamt für Verkehr</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#EN">Federal Office of Transport</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#DE">Bundesamt für Verkehr</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#FR">Office fédéral des transports</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#IT">Ufficio federale dei trasporti</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                  </gmd:PT_FreeText>
+               </gmd:organisationName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice>
+                              <gco:CharacterString>058 464 48 81</gco:CharacterString>
+                           </gmd:voice>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:city>
+                              <gco:CharacterString>Bern</gco:CharacterString>
+                           </gmd:city>
+                           <gmd:postalCode>
+                              <gco:CharacterString>3003</gco:CharacterString>
+                           </gmd:postalCode>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>markus.giger@bav.admin.ch</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                     <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                           <gmd:linkage/>
+                           <gmd:protocol>
+                              <gco:CharacterString>text/html</gco:CharacterString>
+                           </gmd:protocol>
+                        </gmd:CI_OnlineResource>
+                     </gmd:onlineResource>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"
+                                   codeListValue="pointOfContact"/>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:pointOfContact>
+         <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>Bundesamt für Verkehr</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#DE">Bundesamt für Verkehr</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#FR">Office fédéral des transports</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#IT">Ufficio federale dei trasporti</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#EN">Federal Office of Transport</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#RM">Bundesamt für Verkehr</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                  </gmd:PT_FreeText>
+               </gmd:organisationName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice>
+                              <gco:CharacterString>Tel. +41 58 462 57 11</gco:CharacterString>
+                           </gmd:voice>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:city>
+                              <gco:CharacterString>Bern</gco:CharacterString>
+                           </gmd:city>
+                           <gmd:postalCode>
+                              <gco:CharacterString>3003</gco:CharacterString>
+                           </gmd:postalCode>
+                           <gmd:country>
+                              <gco:CharacterString>CH</gco:CharacterString>
+                           </gmd:country>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>info@bav.admin.ch</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                     <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                           <gmd:linkage/>
+                           <gmd:protocol>
+                              <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                           </gmd:protocol>
+                           <gmd:name xsi:type="gmd:PT_FreeText_PropertyType" gco:nilReason="missing">
+                              <gco:CharacterString/>
+                              <gmd:PT_FreeText>
+                                 <gmd:textGroup>
+                                    <gmd:LocalisedCharacterString locale="#EN"/>
+                                 </gmd:textGroup>
+                              </gmd:PT_FreeText>
+                           </gmd:name>
+                           <gmd:description xsi:type="gmd:PT_FreeText_PropertyType" gco:nilReason="missing">
+                              <gco:CharacterString/>
+                              <gmd:PT_FreeText>
+                                 <gmd:textGroup>
+                                    <gmd:LocalisedCharacterString locale="#EN"/>
+                                 </gmd:textGroup>
+                              </gmd:PT_FreeText>
+                           </gmd:description>
+                        </gmd:CI_OnlineResource>
+                     </gmd:onlineResource>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"
+                                   codeListValue="owner"/>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:pointOfContact>
+         <gmd:resourceMaintenance>
+            <gmd:MD_MaintenanceInformation>
+               <gmd:maintenanceAndUpdateFrequency>
+                  <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+                                                   codeListValue="annually"/>
+               </gmd:maintenanceAndUpdateFrequency>
+            </gmd:MD_MaintenanceInformation>
+         </gmd:resourceMaintenance>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gmd:PT_FreeText>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#DE">opendata.swiss</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#FR">opendata.swiss</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#IT">opendata.swiss</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#EN">opendata.swiss</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#RM">opendata.swiss</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                  </gmd:PT_FreeText>
+               </gmd:keyword>
+               <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gmd:PT_FreeText>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#DE">Eisenbahnlinie</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#FR">ligne de chemin de fer</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#IT">linea di ferrovia</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#EN">railway track</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#RM"/>
+                     </gmd:textGroup>
+                  </gmd:PT_FreeText>
+               </gmd:keyword>
+               <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gmd:PT_FreeText>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#DE">Geobasisdaten</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#FR">géodonnée de base</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#IT">geodati di base</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#EN">official geodata</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#RM"/>
+                     </gmd:textGroup>
+                  </gmd:PT_FreeText>
+               </gmd:keyword>
+               <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gmd:PT_FreeText>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#DE">Aufbewahrungs- und Archivierungsplanung AAP - Bund</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#FR">Planification de la conservation et de l'archivage AAP - Conféderation</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#IT">Pianificazione della conservazione e dell’archiviazione AAP - Confederazione</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#EN">Conservation and archiving planning AAP - Confederation</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#RM"/>
+                     </gmd:textGroup>
+                  </gmd:PT_FreeText>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode"
+                                          codeListValue="theme"/>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>geocat.ch</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2018-01-09</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication"/>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <gmd:identifier>
+                        <gmd:MD_Identifier>
+                           <gmd:code>
+                              <gmx:Anchor>
+                    geonetwork.thesaurus.local.theme.geocat.ch</gmx:Anchor>
+                           </gmd:code>
+                        </gmd:MD_Identifier>
+                     </gmd:identifier>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gmd:PT_FreeText>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#DE">Eisenbahn</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#FR">voie ferrée</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#IT">ferrovia</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#EN">railway</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#RM"/>
+                     </gmd:textGroup>
+                  </gmd:PT_FreeText>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode"
+                                          codeListValue="theme"/>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>GEMET</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2017-12-07</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication"/>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <gmd:identifier>
+                        <gmd:MD_Identifier>
+                           <gmd:code>
+                              <gmx:Anchor>
+                    geonetwork.thesaurus.external.theme.gemet</gmx:Anchor>
+                           </gmd:code>
+                        </gmd:MD_Identifier>
+                     </gmd:identifier>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+                                          codeListValue="otherRestrictions"/>
+               </gmd:useConstraints>
+               <gmd:otherConstraints xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>http://www.disclaimer.admin.ch/index.html</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#DE">http://www.disclaimer.admin.ch/index.html</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#FR">http://www.disclaimer.admin.ch/index.html</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#EN">http://www.disclaimer.admin.ch/index.html</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#IT">http://www.disclaimer.admin.ch/index.html</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                  </gmd:PT_FreeText>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+         <gmd:language>
+            <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="ger"/>
+         </gmd:language>
+         <gmd:characterSet>
+            <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+                                     codeListValue="utf8"/>
+         </gmd:characterSet>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>transportation</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>Schweiz (mit grenznahem Ausland)</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#EN">Switzerland (extent of the railway network with areas close to the border)</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#DE">Schweiz (mit grenznahem Ausland)</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#FR">Suisse (extension du réseau ferré avec l'étranger près de la frontière)</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#IT">Svizzera (estensione della rete ferroviaria con parziale copertura oltre frontiera)</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#RM">Switzerland (extent of the railway network with areas close to the border)</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                  </gmd:PT_FreeText>
+               </gmd:description>
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicDescription>
+                     <gmd:geographicIdentifier>
+                        <gmd:MD_Identifier>
+                           <gmd:code xsi:type="gmd:PT_FreeText_PropertyType">
+                              <gco:CharacterString>CH</gco:CharacterString>
+                              <gmd:PT_FreeText>
+                                 <gmd:textGroup>
+                                    <gmd:LocalisedCharacterString locale="#EN">CH</gmd:LocalisedCharacterString>
+                                 </gmd:textGroup>
+                                 <gmd:textGroup>
+                                    <gmd:LocalisedCharacterString locale="#DE">CH</gmd:LocalisedCharacterString>
+                                 </gmd:textGroup>
+                                 <gmd:textGroup>
+                                    <gmd:LocalisedCharacterString locale="#FR">CH</gmd:LocalisedCharacterString>
+                                 </gmd:textGroup>
+                                 <gmd:textGroup>
+                                    <gmd:LocalisedCharacterString locale="#IT">CH</gmd:LocalisedCharacterString>
+                                 </gmd:textGroup>
+                                 <gmd:textGroup>
+                                    <gmd:LocalisedCharacterString locale="#RM">CH</gmd:LocalisedCharacterString>
+                                 </gmd:textGroup>
+                              </gmd:PT_FreeText>
+                           </gmd:code>
+                        </gmd:MD_Identifier>
+                     </gmd:geographicIdentifier>
+                  </gmd:EX_GeographicDescription>
+               </gmd:geographicElement>
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox>
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>5.83599354331156</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>10.6429883601277</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>45.6939911225504</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>47.8389915641108</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+               <gmd:geographicElement>
+                  <gmd:EX_BoundingPolygon>
+                     <gmd:polygon> 
+                        <gml:MultiSurface gml:id="_ms5098994668181">
+                           <gml:surfaceMember>
+                              <gml:Polygon gml:id="_p5098991369032">
+                                 <gml:exterior>
+                                    <gml:LinearRing>
+                                       <gml:posList srsDimension="2">5.896989 45.725993 5.835994 47.838992 10.642988 47.805997 10.519999 45.693991 5.896989 45.725993</gml:posList>
+                                    </gml:LinearRing>
+                                 </gml:exterior>
+                              </gml:Polygon>
+                           </gml:surfaceMember>
+                        </gml:MultiSurface>
+                     </gmd:polygon>
+                  </gmd:EX_BoundingPolygon>
+               </gmd:geographicElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+      </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+   <gmd:distributionInfo xmlns:gmx="http://www.isotc211.org/2005/gmx"
+                         xmlns:gts="http://www.isotc211.org/2005/gts"
+                         xmlns:gml="http://www.opengis.net/gml"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
+      <gmd:MD_Distribution>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>ESRI File Geodatabase</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>-</gco:CharacterString>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>INTERLIS</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>2</gco:CharacterString>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>MapInfo .TAB</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>-</gco:CharacterString>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://www.bav.admin.ch/org/aufgaben/00510/index.html?lang=en</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>Infos zum Bereich Eisenbahn des BAV</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString locale="#DE">Infos zum Bereich Eisenbahn des BAV</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString locale="#FR">Informations sur les tâches de l'OFT dans le domaine chemin de fer.</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString locale="#EN">Information about the tasks of the FOT in the railways context.</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString locale="#IT">Informazioni sulle attività dell'UFT nel campo delle ferrovie.</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                   codeListValue="information"/>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions/>
+         </gmd:transferOptions>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://www.bav.admin.ch/bav/de/home/themen/alphabetische-themenliste/geoinformation/geobasisdaten/schienennetz.html</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>CHTOPO:specialised-geoportal</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>Modellbeschreibung und Links zum Datenmodell</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString locale="#DE">Modellbeschreibung und Links zum Datenmodell</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString locale="#FR">Description du modèle et liens pour le téléchargement</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                   codeListValue="information"/>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://data.geo.admin.ch/ch.bav.schienennetz/</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:DOWNLOAD-URL</gco:CharacterString>
+                     </gmd:protocol>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+      </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+</gmd:MD_Metadata>

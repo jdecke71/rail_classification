@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Central Puget Sound Regional Transit Authority (Sound Transit)</origin>
+				<pubdate>Unpublished Material</pubdate>
+				<title>Sound Transit Sounder Commuter Rail Station Points</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink Sync="TRUE"></onlink>
+				<ftname Sync="TRUE">SounderStationPoints</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>Contains Sound Transit's Sounder Commuter Rail Station point locations, from Everett in the north to Lakewood / Dupont in the south.  Includes operational and non-operational stations.</abstract>
+			<purpose>Supports Sound Transit's Sounder line of business functions and general mapping.  Supports map display and query and general mapping Agency-wide.</purpose>
+			<langdata Sync="TRUE">en</langdata><supplinf>Sounder station locations are based on address and manual placement using on-screen digitizing methods.  All Sounder Station locations were spatially registered to USGS color digital orthophotography (vintage 2002) in late 2004 / early 2005.  Lines which points were snapped to represent digitized lines and GPS lines adjusted to spatially register with USGS color orthos (vintage 2002).  Points were also positioned to spatially register to corresponding BNSF milepost points.</supplinf></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>Sept 2006</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current></timeperd>
+		<status>
+			<update>As needed</update>
+			<progress>Complete</progress></status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-122.525470</westbc>
+				<eastbc Sync="TRUE">-122.176016</eastbc>
+				<northbc Sync="TRUE">47.975478</northbc>
+				<southbc Sync="TRUE">47.153189</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">1225949.725356</leftbc><rightbc Sync="TRUE">1306356.668356</rightbc><bottombc Sync="TRUE">60365.491419</bottombc><topbc Sync="TRUE">358784.955418</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Transportation</themekey><themekey>Transit</themekey><themekey>Commuter Rail</themekey><themekey>Train</themekey><themekey>Railroad</themekey><themekey>Stations</themekey></theme>
+			<place><placekt>None</placekt><placekey>Sound Transit Regional Transit Authority District</placekey><placekey>Central Puget Sound</placekey></place></keywords>
+		<accconst>Please Refer to Sound Transit GIS Data DISCLAIMER for a full description of ACCESS CONSTRAINTS.  GIS data obtained from the Central Puget Sound Regional Transit Authority (hereafter known as Sound Transit) contains information from a variety of sources and the user acknowledges that the data is complex and that it may contain some nonconformities, defects or errors. This product may contain data in whole or in part from jurisdictions or entities that fall within Sound Transit program boundaries and users of this data are bound to the Terms of Use and Disclaimers from those respective jurisdictions or entities.  Independent verification of all data contained on this product should be obtained by any user of the product.  </accconst>
+		<useconst>Please Refer to Sound Transit GIS Data DISCLAIMER for a full description of USE CONSTRAINTS.  The user shall recognize the copyright claimed by the contributors of GIS data, including, but not limited to, those of RTA, jurisdictions and entities, and shall include a copyright notice in any derivative work produced for RTA.
+The user may use GIS data supplied by RTA to present or display information including but not limited to maps, charts and reports for RTA purposes. The user may not sell, assign, lease, sublicense, market or use for commercial purposes the data or use the data for other projects not under contract to Sound Transit without Sound Transit's written permission.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>GIS Services</cntper>
+					<cntorg>Sound Transit</cntorg>
+				</cntperp>
+				<cntpos>GIS Project Development Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>Union Station, 401 S. Jackson Street</address>
+					<city>Seattle</city>
+					<state>WA</state>
+					<postal>98104</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>206-689-3357</cntvoice>
+				<cntfax>206-689-3376</cntfax>
+				<cntemail>gisservices@soundtransit.org</cntemail>
+				<hours>Weekdays, 8:00 am.- 5:00 pm</hours></cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.1850</native>
+		<natvform Sync="TRUE">File Geodatabase Feature Class</natvform><crossref><citeinfo><pubdate>Unpublished Material</pubdate><geoform>vector digital data</geoform></citeinfo></crossref><secinfo><secclass>Unclassified</secclass></secinfo><datacred>Sound Transit Sounder Commuter Rail Department:  Christine Alar, Bob Harvey
+Sound Transit Office of Policy and Planning: GIS Services</datacred></idinfo>
+	<dataqual>
+		<lineage>
+			<procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\agency\hqpublic\gis\DATA_INTERNAL\SoundTransit\SoundTransitRail.gdb</srcused><procdate Sync="TRUE">20130124</procdate><proctime Sync="TRUE">11013400</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\agency\hqpublic\gis\DATA_INTERNAL\SoundTransit\SoundTransitRail.gdb</srcused><procdate Sync="TRUE">20130124</procdate><proctime Sync="TRUE">14563400</proctime></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="SounderStationPoints">
+				<sdtstype Sync="TRUE">Entity point</sdtstype>
+				<ptvctcnt Sync="TRUE">0</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm Name="tic">
+				<sdtstype Sync="TRUE">Point</sdtstype>
+				<ptvctcnt Sync="TRUE">4</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm Name="tic">
+				<sdtstype Sync="TRUE">Point</sdtstype>
+				<ptvctcnt Sync="TRUE">4</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm Name="node">
+				<sdtstype Sync="TRUE">Node, planar graph</sdtstype>
+				<ptvctcnt Sync="TRUE">272</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm Name="tic">
+				<sdtstype Sync="TRUE">Point</sdtstype>
+				<ptvctcnt Sync="TRUE">4</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="SounderStationPoints"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Point</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer><featdesc>Linear</featdesc><XYRank Sync="TRUE">2</XYRank><ZRank Sync="TRUE">1</ZRank><topoWeight Sync="TRUE">5.000000</topoWeight><validateEvents Sync="TRUE">FALSE</validateEvents><partTopoRules><topoRuleID Sync="TRUE">166</topoRuleID></partTopoRules></esriterm><esriterm Name="tic"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Tic</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">4</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000250</absres>
+						<ordres Sync="TRUE">0.000250</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">survey feet</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn><lambertc><stdparll Sync="TRUE">47.500000</stdparll><stdparll Sync="TRUE">48.733333</stdparll><longcm Sync="TRUE">-120.833333</longcm><latprjo Sync="TRUE">47.000000</latprjo><feast Sync="TRUE">1640416.666667</feast><fnorth Sync="TRUE">0.000000</fnorth></lambertc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_Washington_North_FIPS_4601_Feet</projcsn></cordsysn></horizsys>
+		<vertdef><altsys><altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc><altres Sync="TRUE">0.000003</altres></altsys></vertdef></spref>
+	<eainfo>
+		<overview><dsoverv>See Description Abstract and Purpose.</dsoverv></overview><detailed Name="SounderStationPoints"><enttyp><enttypl Sync="TRUE">SounderStationPoints</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc><enttypd>Sounder Commuter Rail Station Points</enttypd><enttypds>Sound Transit Sounder LOB/ GIS OPP</enttypds></enttyp><attr><attrlabl Sync="TRUE">OBJECTID</attrlabl><attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">PRJ_NUM</attrlabl><attalias Sync="TRUE">PROJECT_NUMBER</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atoutwid Sync="TRUE">12</atoutwid><attrdef>Sounder Capital Facilities Project Number</attrdef><attrdefs>Sound Transit Sounder Commuter Rail Department</attrdefs><attrdomv/><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><begdatea>1998</begdatea><enddatea>Present</enddatea></attr><attr><attrlabl Sync="TRUE">NAME</attrlabl><attalias Sync="TRUE">NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">40</attwidth><atoutwid Sync="TRUE">5</atoutwid><attrdef>Sounder Station Name (with "Station" in the name)</attrdef><attrdefs>Sound Transit Sounder Commuter Rail Department</attrdefs><attrdomv/><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><begdatea>1998</begdatea><enddatea>Present</enddatea></attr><attr><attrlabl Sync="TRUE">JURISD</attrlabl><attalias Sync="TRUE">JURISDICTION</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth><attrdef>Jurisdiction of Sounder Station</attrdef><atoutwid Sync="TRUE">10</atoutwid><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdefs>Sound Transit Sounder Commuter Rail Department</attrdefs><begdatea>1998</begdatea><enddatea>Present</enddatea></attr><attr><attrlabl Sync="TRUE">LOCATION</attrlabl><attalias Sync="TRUE">LOCATION</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">60</attwidth><attrdef>Address Location (Street Address) of the Sounder Station</attrdef><atoutwid Sync="TRUE">8</atoutwid><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdefs>Sound Transit</attrdefs><begdatea>1998</begdatea><enddatea>Present</enddatea></attr><attr><attrlabl Sync="TRUE">STATUS</attrlabl><attalias Sync="TRUE">STATUS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth><attrdefs>Sound Transit</attrdefs><attrdef>Sounder Station Operational Status Code</attrdef><atoutwid Sync="TRUE">20</atoutwid><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdomv><edom><edomv>OPERATIONAL</edomv><edomvd>Operational</edomvd><edomvds>Sound Transit</edomvds></edom><edom><edomv>PROVISIONAL</edomv><edomvd>Provisional</edomvd><edomvds>Sound Transit</edomvds></edom><edom><edomv>DESIGN</edomv><edomvd>Undergoing station design.</edomvd><edomvds>Sound Transit</edomvds></edom><edom><edomv>DELETED</edomv><edomvd>Deleted from the planning process.</edomvd><edomvds>Sound Transit</edomvds></edom><edom><edomv>CONST</edomv><edomvd>Under construction</edomvd><edomvds>Sound Transit</edomvds></edom></attrdomv><begdatea>1998</begdatea><enddatea>Present</enddatea></attr><attr><attrlabl Sync="TRUE">EDITDATE</attrlabl><attalias Sync="TRUE">EDITDATE</attalias><attrtype Sync="TRUE">Date</attrtype><attwidth Sync="TRUE">8</attwidth><attrdefs>Sound Transit</attrdefs><attrdef>Date when the feature was last edited.</attrdef><atoutwid Sync="TRUE">30</atoutwid><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><begdatea>2002</begdatea><enddatea>Present</enddatea></attr><attr><attrlabl Sync="TRUE">REGIONAL_T</attrlabl><attalias Sync="TRUE">REGIONAL_T</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdomv><edom><edomv>Yes</edomv><edomvd>Is a Regional T Facility</edomvd><edomvds>Sound Transit</edomvds></edom><edom><edomv>No</edomv><edomvd>Is not a Regional T Facility</edomvd><edomvds>Sound Transit</edomvds></edom></attrdomv><attrdef>Flag Designation for Identifying Regional T Facilities.</attrdef><attrdefs>Sound Transit</attrdefs><begdatea>2004</begdatea><enddatea>Present</enddatea></attr><attr><attrlabl Sync="TRUE">STATION</attrlabl><attalias Sync="TRUE">STATION</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">40</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Sounder Station Name (without "Station" in the name)</attrdef><attrdefs>Sound Transit</attrdefs></attr><attr><attrlabl Sync="TRUE">ROTATE</attrlabl><attalias Sync="TRUE">ROTATE</attalias><attrtype Sync="TRUE">Single</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Rotation factor for placement of marker symbols.</attrdef><attrdefs>Sound Transit</attrdefs></attr><attr><attrlabl Sync="TRUE">WEBSITE</attrlabl><attalias Sync="TRUE">WEBSITE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">150</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Edit_Flag</attrlabl><attalias Sync="TRUE">Edit_Flag</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed></eainfo>
+	<distinfo>
+		<resdesc>Data delivery via CD-ROM or e-mail per request.</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize Sync="TRUE">0.028</transize>
+					<dssize Sync="TRUE">0.028</dssize></digtinfo>
+			</digform>
+			<fees>Depends on the size of request</fees><ordering>Submit request to GIS Services via phone or email.</ordering><turnarnd>varies</turnarnd></stdorder>
+		<distliab>Please Refer to Sound Transit GIS Data DISCLAIMER for a full description of Distribution Liability.</distliab><distrib><cntinfo><cntperp><cntper>GIS Services</cntper><cntorg>Sound Transit</cntorg></cntperp><cntpos>GIS Project Development Coordinator</cntpos><cntvoice>206-689-3357</cntvoice><cntfax>206-689-3376</cntfax><cntemail>gisservices@soundtransit.org</cntemail><hours>Weekdays, 8:00 am.- 5:00 pm</hours><cntaddr><addrtype>mailing and physical address</addrtype><address>Union Station, 401 S. Jackson Street</address><city>Seattle</city><state>WA</state><postal>98104</postal><country>USA</country></cntaddr></cntinfo></distrib></distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20130108</metd>
+		<metc>
+			<cntinfo>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<city>Seattle</city>
+					<state>Washington</state>
+					<postal>98104</postal>
+					<address>Union Station, 401 S. Jackson Street</address><address>Union Station</address><country>USA</country></cntaddr>
+				<cntvoice>206-689-3357</cntvoice>
+				<cntperp><cntper>GIS Services</cntper><cntorg>Sound Transit</cntorg></cntperp><cntpos>GIS Consultant</cntpos><cntfax>206-689-3376</cntfax><cntemail>gisservices@soundtransit.org</cntemail><hours>Weekdays, 8:00 am.- 5:00 pm</hours></cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<langmeta Sync="TRUE">en</langmeta><metac>Please Refer to Sound Transit GIS Data DISCLAIMER for a full description of ACCESS CONSTRAINTS.</metac><metuc>Please Refer to Sound Transit GIS Data DISCLAIMER for a full description of USE CONSTRAINTS.</metuc><metsi><metsc>Unclassified</metsc></metsi><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20130124</CreaDate><CreaTime>14563400</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20130108</SyncDate><SyncTime>17023000</SyncTime><ModDate>20130108</ModDate><ModTime>17023000</ModTime><DataProperties><lineage><Process Name="CalculateField_4" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20050706" Time="161205">CalculateField M:\Workgroups\GIS\ST-gis\St-final\gdb_editing\SoundTransitRail\SoundTransitRail.mdb\SounderCommuterRail\SounderStationPoints WEBSITE "TEST" M:\Workgroups\GIS\ST-gis\St-final\gdb_editing\SoundTransitRail\SoundTransitRail.mdb\SounderCommuterRail\SounderStationPoints</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20130108" Time="170232">CopyFeatures G:\DATA_INTERNAL\GDB_Master\SoundTransitRail.mdb\SounderCommuterRail\SounderStationPoints G:\DATA_INTERNAL\SoundTransit\SoundTransitRail.gdb\SounderCommuterRail\SounderStationPoints # 0 0 0</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20130124" Time="132120">DeleteField G:\DATA_INTERNAL\SoundTransit\SoundTransitRail.gdb\SounderCommuterRail\SounderStationDisplay PRJ_NUM;ROTATE;EDITDATE;WEBSITE;Edit_Flag G:\DATA_INTERNAL\SoundTransit\SoundTransitRail.gdb\SounderCommuterRail\SounderStationDisplay</Process></lineage></DataProperties><MetaID>{BCB3A603-7198-41D4-8303-0BD3C09F43F7}</MetaID></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.1850</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">SounderStationPoints</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">1225949.725356</westBL><eastBL Sync="TRUE">1306356.668356</eastBL><northBL Sync="TRUE">358784.955418</northBL><southBL Sync="TRUE">60365.491419</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-122.52547</westBL><eastBL Sync="TRUE">-122.176016</eastBL><northBL Sync="TRUE">47.975478</northBL><southBL Sync="TRUE">47.153189</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.028</transSize></distorTran><distorFormat><formatName Sync="TRUE">File Geodatabase Feature Class</formatName></distorFormat></distributor></distInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="SounderStationPoints"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="004"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20130108</mdDateSt><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_StatePlane_Washington_North_FIPS_4601_Feet</identCode></refSysID></RefSystem></refSysInfo></metadata>

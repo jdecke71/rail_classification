@@ -1,0 +1,39 @@
+Sound Transit GIS datasets
+Date:  4/8/2019
+
+Link Light Rail:
+
+- LINKLine.shp - Link alignment, existing and under construction (data type: polyline)
+- LINKStations.shp - Link stations, existing and under construction (data type: points)
+
+Sounder Commuter Rail:
+
+- SNDRLine.shp - Sounder alignment (data type: polyline)
+- SNDRStations.shp - Sounder stations  (data type: points)
+
+Sound Transit Express bus routes:
+
+- STExpress.shp - Sound Transit express bus routes (data type: polyline)
+- STExpStops.shp - Sound Transit express bus stops (data type: points)
+
+Sound Transit district boundary:
+
+- STDistrict.shp - Sound Transit district boundary (data type: polygon)
+- STSubareas.shp - Sound Transit subareas [Snohomish, North King, East King, South King, Pierce] (data type: polygon)
+
+ORCA fare outlets:
+
+- ORCA.shp - Link alignment (data type: points)
+
+
+
+Notes:
+
+This data extract includes all existing Sound Transit services, as well as those that are under construction.
+
+
+
+Projection:
+
+All shapefiles use the following projected coordinate system: NAD_1983_HARN_StatePlane_Washington_North_FIPS_4601_Feet 
+(Linear Unit: Foot_US, Datum: D_North_American_1983_HARN)

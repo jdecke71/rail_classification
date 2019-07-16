@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Central Puget Sound Regional Transit Authority (Sound Transit)</origin>
+				<pubdate>Sept 2006</pubdate>
+				<title>Sound Transit Link Light Rail Alignments (Central Link, University Link, North Link, Airport Link and Tacoma Link)</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink Sync="TRUE"></onlink>
+				<ftname Sync="TRUE">LinkAlignments</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>
+Contains the entire Central Link, University Link, North Link, and Airport Link light rail alignments from Northgate Mall to SeaTac Airport.  Includes identification of alignment segments A-F, areas to be constructed, areas planned for construction, and the orientation of the alignment (e.g.  aerial, at-grade, subway, etc.).
+
+Also contains the entire constructed Tacoma Link light rail alignment from the Theater District to the Tacoma Dome.
+</abstract>
+			<purpose>Supports Sound Transit's Link light rail line of business function including planning, engineering design, siting, identification and assessment of impacted parcels, environmental assessment, and general mapping.  Supports map display and query (in ST Map Explorer) and general mapping agency-wide.</purpose>
+			<supplinf>Constructed using high-accuracy AutoCAD engineering linework provided by the Link Light Rail department in DXF format.  The Office of Policy and Planning GIS Services then converts, processes, and updates the master dataset in ArcGIS personal geodatabase format.</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>May 2007</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-122.453874</westbc>
+				<eastbc Sync="TRUE">-122.262557</eastbc>
+				<northbc Sync="TRUE">47.706297</northbc>
+				<southbc Sync="TRUE">47.238955</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">1241431.426000</leftbc><rightbc Sync="TRUE">1285395.396000</rightbc><bottombc Sync="TRUE">91328.467000</bottombc><topbc Sync="TRUE">260961.482000</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekey>Light Rail</themekey>
+				<themekey>Trolley</themekey>
+				<themekey>Transportation</themekey>
+				<themekey>Transit</themekey>
+				<themekey>Alignments</themekey>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt></theme>
+			<place>
+				<placekey>Central Puget Sound</placekey>
+				<placekey>Seattle</placekey>
+				<placekey>Tacoma</placekey>
+				<placekey>King County</placekey>
+				<placekey>Pierce County</placekey>
+				<placekey>Washington</placekey>
+				<placekey>Sound Transit Regional Transit Authority District</placekey>
+			</place>
+		</keywords>
+		<accconst>Please Refer to Sound Transit GIS Data DISCLAIMER for a full description of ACCESS CONSTRAINTS.  GIS data obtained from the Central Puget Sound Regional Transit Authority (hereafter known as Sound Transit) contains information from a variety of sources and the user acknowledges that the data is complex and that it may contain some nonconformities, defects or errors. This product may contain data in whole or in part from jurisdictions or entities that fall within Sound Transit program boundaries and users of this data are bound to the Terms of Use and Disclaimers from those respective jurisdictions or entities.  Independent verification of all data contained on this product should be obtained by any user of the product.</accconst>
+		<useconst>
+Please Refer to Sound Transit GIS Data DISCLAIMER for a full description of USE CONSTRAINTS.  The user shall recognize the copyright claimed by the contributors of GIS data, including, but not limited to, those of RTA, jurisdictions and entities, and shall include a copyright notice in any derivative work produced for RTA.
+The user may use GIS data supplied by RTA to present or display information including but not limited to maps, charts and reports for RTA purposes. The user may not sell, assign, lease, sublicense, market or use for commercial purposes the data or use the data for other projects not under contract to Sound Transit without Sound Transit's written permission.
+</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Sound Transit</cntorg>
+					<cntper>GIS Services</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>Union Station, 401 S. Jackson Street</address>
+					<city>Seattle</city>
+					<state>WA</state>
+					<postal>98104</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>206-689-3357</cntvoice>
+				<cntfax>206-689-3376</cntfax>
+				<cntemail>gisservices@soundtransit.org</cntemail>
+				<hours>Weekdays, 8:00 am.- 5:00 pm</hours>
+			</cntinfo>
+		</ptcontac>
+		<datacred>Sound Transit Office of Policy and Planning:  GIS Services</datacred>
+		<secinfo>
+			<secclass>Unclassified</secclass>
+		</secinfo>
+		<native Sync="TRUE">Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.1850</native>
+		<natvform Sync="TRUE">File Geodatabase Feature Class</natvform></idinfo>
+	<dataqual>
+		<lineage><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\DOCUME~1\CHAMBE~1\LOCALS~1\Temp\xmlFD.tmp</srcused><date Sync="TRUE">20061117</date><time Sync="TRUE">13505400</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\agency\hqpublic\gis\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb</srcused><date Sync="TRUE">20070503</date><time Sync="TRUE">14085000</time></procstep><srcinfo><srctime><timeinfo><sngdate><caldate>May 2007</caldate></sngdate></timeinfo></srctime></srcinfo><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\agency\hqpublic\gis\DATA_INTERNAL\SoundTransit\SoundTransitRail.gdb</srcused><procdate Sync="TRUE">20130124</procdate><proctime Sync="TRUE">10351900</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\agency\hqpublic\gis\DATA_INTERNAL\SoundTransit\SoundTransitRail.gdb</srcused><procdate Sync="TRUE">20130124</procdate><proctime Sync="TRUE">14573300</proctime></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="LinkAlignments">
+				<sdtstype Sync="TRUE">String</sdtstype>
+				<ptvctcnt Sync="TRUE">0</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>Point</sdtstype>
+				<ptvctcnt>4</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>Point</sdtstype>
+				<ptvctcnt>4</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>Node, planar graph</sdtstype>
+				<ptvctcnt>272</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>Point</sdtstype>
+				<ptvctcnt>4</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="LinkAlignments"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polyline</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000250</absres>
+						<ordres Sync="TRUE">0.000250</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">survey feet</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn><lambertc><stdparll Sync="TRUE">47.500000</stdparll><stdparll Sync="TRUE">48.733333</stdparll><longcm Sync="TRUE">-120.833333</longcm><latprjo Sync="TRUE">47.000000</latprjo><feast Sync="TRUE">1640416.666667</feast><fnorth Sync="TRUE">0.000000</fnorth></lambertc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_Washington_North_FIPS_4601_Feet</projcsn></cordsysn></horizsys>
+		<vertdef>
+			<altsys>
+				<altres Sync="TRUE">0.000003</altres>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="LinkAlignments">
+			<enttyp>
+				<enttypl Sync="TRUE">LinkAlignments</enttypl>
+				<enttypd>Link Light Rail Alignment data for Central Link, University Link, North Link, Airport Link and Tacoma Link</enttypd>
+				<enttypds>Sound Transit</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp>
+			<attr>
+				<attrlabl>OBJECTID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>LINK_TYPE</attrlabl>
+				<attrdef>Link Light Rail Type for System</attrdef>
+				<attrdefs>Sound Transit</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>Central Link</edomvd>
+						<edomvds>Sound Transit</edomvds>
+					</edom>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>Tacoma Link</edomvd>
+						<edomvds>Sound Transit</edomvds>
+					</edom>
+					<edom>
+						<edomv>3</edomv>
+						<edomvd>North Link</edomvd>
+						<edomvds>Sound Transit</edomvds>
+					</edom>
+					<edom>
+						<edomv>4</edomv>
+						<edomvd>Airport Link</edomvd>
+						<edomvds>Sound Transit</edomvds>
+					</edom>
+					<edom>
+						<edomv>5</edomv>
+						<edomvd>S. 200th Extension</edomvd>
+						<edomvds>Sound Transit</edomvds>
+					</edom>
+					<edom>
+						<edomv>6</edomv>
+						<edomvd>Univeristy Link</edomvd>
+						<edomvds>Sound Transit</edomvds>
+					</edom>
+				</attrdomv>
+				<begdatea>2006</begdatea>
+				<enddatea>Present</enddatea>
+				<attrvai>
+					<attrva>100%</attrva>
+				</attrvai>
+				<attrmfrq>As needed</attrmfrq>
+				<attalias Sync="TRUE">LINK_TYPE</attalias><attrtype Sync="TRUE">SmallInteger</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>SEGMENT</attrlabl>
+				<attrdef>Link Light Rail Segment Designation</attrdef>
+				<attrdefs>Sound Transit</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>A</edomv>
+						<edomvd>Segment A</edomvd>
+						<edomvds>Sound Transit</edomvds>
+					</edom>
+					<edom>
+						<edomv>B</edomv>
+						<edomvd>Segment B</edomvd>
+						<edomvds>Sound Transit</edomvds>
+					</edom>
+					<edom>
+						<edomv>C</edomv>
+						<edomvd>Segment C</edomvd>
+						<edomvds>Sound Transit</edomvds>
+					</edom>
+					<edom>
+						<edomv>D</edomv>
+						<edomvd>Segment D</edomvd>
+						<edomvds>Sound Transit</edomvds>
+					</edom>
+					<edom>
+						<edomv>E</edomv>
+						<edomvd>Segment E</edomvd>
+						<edomvds>Sound Transit</edomvds>
+					</edom>
+					<edom>
+						<edomv>F</edomv>
+						<edomvd>Segment F</edomvd>
+						<edomvds>Sound Transit</edomvds>
+					</edom>
+				</attrdomv>
+				<begdatea>1998</begdatea>
+				<enddatea>Present</enddatea>
+				<attrvai>
+					<attrva>100%</attrva>
+				</attrvai>
+				<attrmfrq>As needed</attrmfrq>
+				<attalias Sync="TRUE">SEGMENT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>DESCRIPTION</attrlabl>
+				<attrdef>Link Light Rail Alignment Description</attrdef>
+				<attrdefs>Sound Transit</attrdefs>
+				<attrdomv>
+					<udom>General description of alignment alternative.</udom>
+				</attrdomv>
+				<begdatea>1998</begdatea>
+				<enddatea>Present</enddatea>
+				<attalias Sync="TRUE">DESCRIPTION</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">40</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>PROFILE</attrlabl>
+				<attrdef>Link Light Rail Alignment Profile</attrdef>
+				<attrdefs>Sound Transit</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>AT-GRADE</edomv>
+						<edomvd>At Grade</edomvd>
+						<edomvds>Sound Transit</edomvds>
+					</edom>
+					<edom>
+						<edomv>SUBWAY</edomv>
+						<edomvd>Subway</edomvd>
+						<edomvds>Sound Transit</edomvds>
+					</edom>
+					<edom>
+						<edomv>RET_CUT</edomv>
+						<edomvd>Retained Cut / Fill</edomvd>
+						<edomvds>Sound Transit</edomvds>
+					</edom>
+					<edom>
+						<edomv>X-OVER</edomv>
+						<edomvd>Crossover</edomvd>
+						<edomvds>Sound Transit</edomvds>
+					</edom>
+					<edom>
+						<edomv>TRANSITION</edomv>
+						<edomvd>Transition</edomvd>
+						<edomvds>Sound Transit</edomvds>
+					</edom>
+					<edom>
+						<edomv>PORTAL</edomv>
+						<edomvd>Portal</edomvd>
+						<edomvds>Sound Transit</edomvds>
+					</edom>
+					<edom>
+						<edomv>AERIAL</edomv>
+						<edomvd>Aerial</edomvd>
+						<edomvds>Sound Transit</edomvds>
+					</edom>
+					<edom>
+						<edomv>CUT-COVER</edomv>
+						<edomvd>Cut and Cover</edomvd>
+						<edomvds>Sound Transit</edomvds>
+					</edom>
+				</attrdomv>
+				<begdatea>1998</begdatea>
+				<enddatea>Present</enddatea>
+				<attalias Sync="TRUE">PROFILE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>STATUS</attrlabl>
+				<attrdef>Link Light Rail Alignment Construction Status</attrdef>
+				<attrdefs>Sound Transit</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>CONST</edomv>
+						<edomvd>To Be Constructed / Under Construction</edomvd>
+						<edomvds>Sound Transit</edomvds>
+					</edom>
+					<edom>
+						<edomv>DEFERRED</edomv>
+						<edomvd>Construction Deferred</edomvd>
+						<edomvds>Sound Transit</edomvds>
+					</edom>
+					<edom>
+						<edomv>PLANNED</edomv>
+						<edomvd>Planned / No Construction Decision Made</edomvd>
+						<edomvds>Sound Transit</edomvds>
+					</edom>
+					<edom>
+						<edomv>COMPLETE</edomv>
+						<edomvd>Construction Complete</edomvd>
+						<edomvds>Sound Transit</edomvds>
+					</edom>
+					<edom>
+						<edomv>PRELIM</edomv>
+						<edomvd>Preliminary Design</edomvd>
+						<edomvds>Sound Transit</edomvds>
+					</edom>
+				</attrdomv>
+				<begdatea>1998</begdatea>
+				<enddatea>Present</enddatea>
+				<attalias Sync="TRUE">STATUS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>EDITDATE</attrlabl>
+				<attrdef>Date when the feature was last edited.</attrdef>
+				<attrdefs>Sound Transit</attrdefs>
+				<begdatea>2001</begdatea>
+				<enddatea>Present</enddatea>
+				<attalias Sync="TRUE">EDITDATE</attalias><attrtype Sync="TRUE">Date</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>Shape_Length</attrlabl>
+				<attrdef>Length of feature in internal units.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape_Length</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>CONTRACT</attrlabl>
+				<attrdef>Link Light Rail Contract Area Designation</attrdef>
+				<attrdefs>Sound Transit</attrdefs>
+				<attalias Sync="TRUE">CONTRACT</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">Direction</attrlabl><attalias Sync="TRUE">Direction</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">25</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Edit_Flag</attrlabl><attalias Sync="TRUE">Edit_Flag</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed>
+		<overview></overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Sound Transit</cntorg>
+					<cntper>GIS Services</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>Union Station, 401 S. Jackson Street</address>
+					<city>Seattle</city>
+					<state>WA</state>
+					<postal>98104</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>206-689-3357</cntvoice>
+				<cntfax>206-689-3376</cntfax>
+				<cntemail>gisservices@soundtransit.org</cntemail>
+				<hours>Weekdays, 8:00 am.- 5:00 pm</hours>
+			</cntinfo>
+		</distrib>
+		<resdesc>Dataset available in shapefile format via CD-ROM or e-mail.</resdesc>
+		<distliab>Please Refer to Sound Transit GIS Data DISCLAIMER for a full description of Distribution Liability.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formspec>shapefile</formspec>
+					<transize>0.304</transize>
+				</digtinfo>
+			</digform>
+			<fees>Depends on size of request</fees>
+			<ordering>Submit request to GIS Services via phone or email.</ordering>
+			<turnarnd>Varies</turnarnd>
+		</stdorder>
+		<availabl>
+			<timeinfo>
+				<sngdate>
+					<caldate>May 2007</caldate>
+				</sngdate>
+			</timeinfo>
+		</availabl>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20130108</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Sound Transit</cntorg>
+					<cntper>GIS Services</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>Union Station, 401 S. Jackson Street</address>
+					<city>Seattle</city>
+					<state>Washington</state>
+					<postal>98104</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>206-689-3357</cntvoice>
+				<cntfax>206-689-3376</cntfax>
+				<cntemail>gisservices@soundtransit.org</cntemail>
+				<hours>Weekdays, 8:00 am.- 5:00 pm</hours>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metac>Please Refer to Sound Transit GIS Data DISCLAIMER for a full description of ACCESS CONSTRAINTS.</metac>
+		<metuc>Please Refer to Sound Transit GIS Data DISCLAIMER for a full description of USE CONSTRAINTS.</metuc>
+		<metsi>
+			<metsc>Unclassified</metsc>
+		</metsi>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20130124</CreaDate><CreaTime>14573300</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20130108</SyncDate><SyncTime>16561000</SyncTime><ModDate>20130108</ModDate><ModTime>16561000</ModTime><DataProperties><lineage><Process Name="FeatureClassToFeatureClass_2" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20070503" Time="143814">FeatureClassToFeatureClass G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\workspace\LinkAlignments.shp G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail LinkAlignments3 # "OBJECTID OBJECTID true false false 9 Long 0 9 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\workspace\LinkAlignments.shp,OBJECTID,-1,-1;LINK_TYPE LINK_TYPE true false false 4 Short 0 4 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\workspace\LinkAlignments.shp,LINK_TYPE,-1,-1;DESCRIPTION DESCRIPTION true false false 40 Text 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\workspace\LinkAlignments.shp,DESCRIPTIO,-1,-1;SEGMENT SEGMENT true false false 3 Text 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\workspace\LinkAlignments.shp,SEGMENT,-1,-1;PROFILE PROFILE true false false 20 Text 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\workspace\LinkAlignments.shp,PROFILE,-1,-1;STATUS STATUS true false false 20 Text 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\workspace\LinkAlignments.shp,STATUS,-1,-1;CONTRACT CONTRACT true false false 19 Double 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\workspace\LinkAlignments.shp,CONTRACT,-1,-1;EDITDATE EDITDATE true true false 8 Date 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\workspace\LinkAlignments.shp,EDITDATE,-1,-1;EDITOR EDITOR true false false 10 Text 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\workspace\LinkAlignments.shp,EDITOR,-1,-1;Shape_Length Shape_Length true false false 19 Double 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\workspace\LinkAlignments.shp,Shape_Leng,-1,-1;Feature_Status Feature_Status true false false 1 Text 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\workspace\LinkAlignments.shp,Feature_St,-1,-1" # G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments3</Process><Process Name="FeatureClassToFeatureClass_3" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20070503" Time="144546">FeatureClassToFeatureClass G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments3 G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail LinkAlignments4 # "OBJECTID OBJECTID true true false 4 Long 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments3,OBJECTID,-1,-1;LINK_TYPE LINK_TYPE true true false 2 Short 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments3,LINK_TYPE,-1,-1;DESCRIPTION DESCRIPTION true true false 40 Text 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments3,DESCRIPTION,-1,-1;SEGMENT SEGMENT true true false 3 Text 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments3,SEGMENT,-1,-1;PROFILE PROFILE true true false 20 Text 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments3,PROFILE,-1,-1;STATUS STATUS true true false 20 Text 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments3,STATUS,-1,-1;CONTRACT CONTRACT true true false 8 Double 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments3,CONTRACT,-1,-1;EDITDATE EDITDATE true true false 8 Date 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments3,EDITDATE,-1,-1;EDITOR EDITOR true true false 10 Text 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments3,EDITOR,-1,-1;Feature_Status Feature_Status true true false 1 Text 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments3,Feature_Status,-1,-1;Shape_Length Shape_Length false true true 8 Double 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments3,Shape_Length,-1,-1" # G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments4</Process><Process Name="FeatureClassToFeatureClass_4" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20070503" Time="144751">FeatureClassToFeatureClass G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments4 G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail LinkAlignments5 # "LINK_TYPE LINK_TYPE true true false 2 Short 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments4,LINK_TYPE,-1,-1;DESCRIPTION DESCRIPTION true true false 40 Text 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments4,DESCRIPTION,-1,-1;SEGMENT SEGMENT true true false 3 Text 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments4,SEGMENT,-1,-1;PROFILE PROFILE true true false 20 Text 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments4,PROFILE,-1,-1;STATUS STATUS true true false 20 Text 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments4,STATUS,-1,-1;CONTRACT CONTRACT true true false 8 Double 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments4,CONTRACT,-1,-1;EDITDATE EDITDATE true true false 8 Date 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments4,EDITDATE,-1,-1;EDITOR EDITOR true true false 10 Text 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments4,EDITOR,-1,-1;Feature_Status Feature_Status true true false 1 Text 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments4,Feature_Status,-1,-1;Shape_Length Shape_Length false true true 8 Double 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments4,Shape_Length,-1,-1" # G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments5</Process><Process Name="FeatureClassToFeatureClass_5" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20070503" Time="144924">FeatureClassToFeatureClass G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments5 G:\DATA_INTERNAL\GDB_Master\SoundTransitRail.mdb\LinkLightRail LinkAlignmentsNew # "LINK_TYPE LINK_TYPE true true false 2 Short 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments5,LINK_TYPE,-1,-1;DESCRIPTION DESCRIPTION true true false 40 Text 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments5,DESCRIPTION,-1,-1;SEGMENT SEGMENT true true false 3 Text 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments5,SEGMENT,-1,-1;PROFILE PROFILE true true false 20 Text 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments5,PROFILE,-1,-1;STATUS STATUS true true false 20 Text 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments5,STATUS,-1,-1;CONTRACT CONTRACT true true false 8 Double 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments5,CONTRACT,-1,-1;EDITDATE EDITDATE true true false 8 Date 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments5,EDITDATE,-1,-1;EDITOR EDITOR true true false 10 Text 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments5,EDITOR,-1,-1;Feature_Status Feature_Status true true false 1 Text 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments5,Feature_Status,-1,-1;Shape_Length Shape_Length false true true 8 Double 0 0 ,First,#,G:\PRODUCTION\GDB_Maintenance\SoundTransitRail\SoundTransitRail.mdb\LinkLightRail\LinkAlignments5,Shape_Length,-1,-1" # G:\DATA_INTERNAL\GDB_Master\SoundTransitRail.mdb\LinkLightRail\LinkAlignmentsNew</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20100212" Time="151019">FeatureClassToFeatureClass G:\DATA_INTERNAL\GDB_Master\SoundTransitRail.mdb\LinkLightRail\LinkAlignments G:\DATA_INTERNAL\GDB_Master\SoundTransitRail.mdb\LinkLightRail EditLinkAlignments # "LINK_TYPE 'LINK_TYPE' true true false 2 Short 0 0 ,First,#,G:\DATA_INTERNAL\GDB_Master\SoundTransitRail.mdb\LinkLightRail\LinkAlignments,LINK_TYPE,-1,-1;DESCRIPTION 'DESCRIPTION' true true false 40 Text 0 0 ,First,#,G:\DATA_INTERNAL\GDB_Master\SoundTransitRail.mdb\LinkLightRail\LinkAlignments,DESCRIPTION,-1,-1;SEGMENT 'SEGMENT' true true false 3 Text 0 0 ,First,#,G:\DATA_INTERNAL\GDB_Master\SoundTransitRail.mdb\LinkLightRail\LinkAlignments,SEGMENT,-1,-1;PROFILE 'PROFILE' true true false 20 Text 0 0 ,First,#,G:\DATA_INTERNAL\GDB_Master\SoundTransitRail.mdb\LinkLightRail\LinkAlignments,PROFILE,-1,-1;STATUS 'STATUS' true true false 20 Text 0 0 ,First,#,G:\DATA_INTERNAL\GDB_Master\SoundTransitRail.mdb\LinkLightRail\LinkAlignments,STATUS,-1,-1;CONTRACT 'CONTRACT' true true false 8 Double 0 0 ,First,#,G:\DATA_INTERNAL\GDB_Master\SoundTransitRail.mdb\LinkLightRail\LinkAlignments,CONTRACT,-1,-1;EDITDATE 'EDITDATE' true true false 8 Date 0 0 ,First,#,G:\DATA_INTERNAL\GDB_Master\SoundTransitRail.mdb\LinkLightRail\LinkAlignments,EDITDATE,-1,-1;Shape_Length 'Shape_Length' false true true 8 Double 0 0 ,First,#,G:\DATA_INTERNAL\GDB_Master\SoundTransitRail.mdb\LinkLightRail\LinkAlignments,Shape_Length,-1,-1;Edit_Flag 'Edit_Flag' true true false 1 Text 0 0 ,First,#,G:\DATA_INTERNAL\GDB_Master\SoundTransitRail.mdb\LinkLightRail\LinkAlignments,Edit_Flag,-1,-1" # G:\DATA_INTERNAL\GDB_Master\SoundTransitRail.mdb\LinkLightRail\EditLinkAlignments</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20130108" Time="165613">CopyFeatures G:\DATA_INTERNAL\GDB_Master\SoundTransitRail.mdb\LinkLightRail\LinkAlignments G:\DATA_INTERNAL\SoundTransit\SoundTransitRail.gdb\LinkLightRail\LinkAlignments # 0 0 0</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20130124" Time="110338">DeleteField G:\DATA_INTERNAL\SoundTransit\SoundTransitRail.gdb\LinkLightRail\LinkDisplay SEGMENT;PROFILE;CONTRACT;EDITDATE;Edit_Flag;Direction G:\DATA_INTERNAL\SoundTransit\SoundTransitRail.gdb\LinkLightRail\LinkDisplay</Process></lineage></DataProperties><MetaID>{D655AE80-F97A-4BCD-9500-7222B9290530}</MetaID></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.1850</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">LinkAlignments</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">1241431.426</westBL><eastBL Sync="TRUE">1285395.396</eastBL><northBL Sync="TRUE">260961.482</northBL><southBL Sync="TRUE">91328.467</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-122.453874</westBL><eastBL Sync="TRUE">-122.262557</eastBL><northBL Sync="TRUE">47.706297</northBL><southBL Sync="TRUE">47.238955</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc></distorTran><distorFormat><formatName Sync="TRUE">File Geodatabase Feature Class</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_StatePlane_Washington_North_FIPS_4601_Feet</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="LinkAlignments"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20130108</mdDateSt></metadata>
