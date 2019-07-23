@@ -124,14 +124,14 @@ def DefineParameters():
     # sample_size = float(input('Enter sample size: '))
 
     # tmp = int(input('Enter single dimension for image size: '))
-    img_size = (320,320)
+    img_size = (1280,1280)
 
     params = {}
 
     params['description'] = 'test'
     params['img_folder'] = img_folder
     params['results_file'] = results_file
-    params['sample_size'] = .1
+    params['sample_size'] = 1.0
     params['img_size'] = img_size
 
     return params
