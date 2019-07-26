@@ -1,2 +1,5 @@
 resources/key.txt
 tmp/
+data/output_images/train
+data/output_images/test
+data/output_images/validation
