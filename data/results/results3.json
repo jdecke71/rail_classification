@@ -1,0 +1,112 @@
+[
+    {
+        "Counts": {
+            "0": "30",
+            "1": "30"
+        },
+        "Description": "All ten image sets. Three quarters resolution.",
+        "Image Resolution": [
+            320,
+            320
+        ],
+        "Run Time": "07/26/2019, 09:17:17",
+        "Sample Size": 0.1,
+        "classifiers": [
+            {
+                "BGN": {
+                    "Matrix": [
+                        "[1 5]",
+                        "[2 4]"
+                    ],
+                    "Report": {
+                        "0": {
+                            "f1-score": 0.2222222222222222,
+                            "precision": 0.3333333333333333,
+                            "recall": 0.16666666666666666,
+                            "support": 6
+                        },
+                        "1": {
+                            "f1-score": 0.5333333333333333,
+                            "precision": 0.4444444444444444,
+                            "recall": 0.6666666666666666,
+                            "support": 6
+                        },
+                        "macro avg": {
+                            "f1-score": 0.37777777777777777,
+                            "precision": 0.38888888888888884,
+                            "recall": 0.41666666666666663,
+                            "support": 12
+                        },
+                        "micro avg": {
+                            "f1-score": 0.4166666666666667,
+                            "precision": 0.4166666666666667,
+                            "recall": 0.4166666666666667,
+                            "support": 12
+                        },
+                        "weighted avg": {
+                            "f1-score": 0.37777777777777777,
+                            "precision": 0.38888888888888884,
+                            "recall": 0.4166666666666667,
+                            "support": 12
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "Counts": {
+            "0": "95",
+            "1": "95"
+        },
+        "Description": "All ten image sets. Three quarters resolution.",
+        "Image Resolution": [
+            320,
+            320
+        ],
+        "Run Time": "07/26/2019, 09:35:38",
+        "Sample Size": 0.3,
+        "classifiers": [
+            {
+                "BGN": {
+                    "Matrix": [
+                        "[8 9]",
+                        "[ 6 15]"
+                    ],
+                    "Report": {
+                        "0": {
+                            "f1-score": 0.5161290322580646,
+                            "precision": 0.5714285714285714,
+                            "recall": 0.47058823529411764,
+                            "support": 17
+                        },
+                        "1": {
+                            "f1-score": 0.6666666666666666,
+                            "precision": 0.625,
+                            "recall": 0.7142857142857143,
+                            "support": 21
+                        },
+                        "macro avg": {
+                            "f1-score": 0.5913978494623656,
+                            "precision": 0.5982142857142857,
+                            "recall": 0.592436974789916,
+                            "support": 38
+                        },
+                        "micro avg": {
+                            "f1-score": 0.6052631578947368,
+                            "precision": 0.6052631578947368,
+                            "recall": 0.6052631578947368,
+                            "support": 38
+                        },
+                        "weighted avg": {
+                            "f1-score": 0.599320882852292,
+                            "precision": 0.6010338345864662,
+                            "recall": 0.6052631578947368,
+                            "support": 38
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]
