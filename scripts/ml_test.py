@@ -116,6 +116,7 @@ def DefineParameters():
     '''
 
     img_folder = '../data/output_images/'
+    img_set = '2'
 
     results_file = '../data/results/'+'results2.json'
 
@@ -124,7 +125,7 @@ def DefineParameters():
     # sample_size = float(input('Enter sample size: '))
 
     # tmp = int(input('Enter single dimension for image size: '))
-    img_size = (1280,1280)
+    img_size = (640,640)
 
     params = {}
 
@@ -259,7 +260,7 @@ def LoadImages(frame,params):
     # print(type(data))
     images = []
     for row in rows:
-        img_path = params['img_folder']+frame.iloc[row]['Railway']+'/'+frame.iloc[row]['Name']+'.png'
+        img_path = params['img_folder']+frame.iloc[row]['Railway']+'/set_'+img_set+'/'+frame.iloc[row]['Name']+'.png'
         img = Image.open(img_path).convert('RGBA')
         img.thumbnail(params['img_size'], Image.ANTIALIAS)
         data = np.asarray(img)
@@ -302,7 +303,7 @@ def DefineClassifiers():
            'Method': SVC(gamma=0.001)}
 
 
-    classifiers = [BGN,DTC,KNN,SVM]
+    classifiers = [DTC]
 
     return classifiers
 
