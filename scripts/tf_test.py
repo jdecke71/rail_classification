@@ -137,7 +137,7 @@ def GetPaths(df):
     labels = []
     for row in rows:
         tmp = df.iloc[row]
-        img_path = path+'/'+tmp.Railway+'/'+tmp.Name+'.png'
+        img_path = path+'/'+tmp.Railway+'/set_2/'+tmp.Name+'.png'
         img_paths.append(img_path)
         label = int(tmp.Catenary)
         labels.append(label)
