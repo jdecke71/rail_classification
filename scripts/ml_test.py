@@ -131,6 +131,7 @@ def DefineParameters():
 
     params['description'] = 'test'
     params['img_folder'] = img_folder
+    params['img_set'] = img_set
     params['results_file'] = results_file
     params['sample_size'] = 1.0
     params['img_size'] = img_size
@@ -260,7 +261,7 @@ def LoadImages(frame,params):
     # print(type(data))
     images = []
     for row in rows:
-        img_path = params['img_folder']+frame.iloc[row]['Railway']+'/set_'+img_set+'/'+frame.iloc[row]['Name']+'.png'
+        img_path = params['img_folder']+frame.iloc[row]['Railway']+'/set_'+params['img_set']+'/'+frame.iloc[row]['Name']+'.png'
         img = Image.open(img_path).convert('RGBA')
         img.thumbnail(params['img_size'], Image.ANTIALIAS)
         data = np.asarray(img)
