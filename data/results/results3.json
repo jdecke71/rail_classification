@@ -598,5 +598,55 @@
                 }
             }
         ]
+    },
+    {
+        "Counts": {
+            "0": "430",
+            "1": "430"
+        },
+        "Description": "All ten image sets. Full resolution.",
+        "Image Resolution": [
+            640,
+            640
+        ],
+        "Run Time": "08/04/2019, 10:25:13",
+        "Sample Size": 1.0,
+        "classifiers": [
+            {
+                "DTC": {
+                    "Matrix": [
+                        "[55 28]",
+                        "[38 51]"
+                    ],
+                    "Report": {
+                        "0": {
+                            "f1-score": 0.625,
+                            "precision": 0.5913978494623656,
+                            "recall": 0.6626506024096386,
+                            "support": 83
+                        },
+                        "1": {
+                            "f1-score": 0.6071428571428571,
+                            "precision": 0.6455696202531646,
+                            "recall": 0.5730337078651685,
+                            "support": 89
+                        },
+                        "accuracy": 0.6162790697674418,
+                        "macro avg": {
+                            "f1-score": 0.6160714285714286,
+                            "precision": 0.6184837348577651,
+                            "recall": 0.6178421551374036,
+                            "support": 172
+                        },
+                        "weighted avg": {
+                            "f1-score": 0.6157599667774086,
+                            "precision": 0.6194285913250465,
+                            "recall": 0.6162790697674418,
+                            "support": 172
+                        }
+                    }
+                }
+            }
+        ]
     }
 ]
