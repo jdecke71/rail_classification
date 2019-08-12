@@ -80,18 +80,21 @@ def GetCSVs(sample_size):
     names = [
         'Amtrak_non_cat_1',
         'Amtrak_non_cat_2',
-        'Amtrak_non_cat_3'
+        'Amtrak_non_cat_3',
+        'Random'
     ]
 
     abbr = [
         'ANC',
         'ANC2',
-        'ANC3'
+        'ANC3',
+        'RAN'
     ]
 
     locations['Amtrak_non_cat_1'] = 'ANC'
     locations['Amtrak_non_cat_2'] = 'ANC2'
     locations['Amtrak_non_cat_3'] = 'ANC3'
+    locations['Random'] = 'RAN'
 
     locations2 = dict(zip(names,abbr))
 
