@@ -81,14 +81,14 @@ def GetCSVs(sample_size):
         'Amtrak_non_cat_1',
         'Amtrak_non_cat_2',
         'Amtrak_non_cat_3',
-        'Random'
+        # 'Random'
     ]
 
     abbr = [
         'ANC',
         'ANC2',
         'ANC3',
-        'RAN'
+        # 'RAN'
     ]
 
     locations['Amtrak_non_cat_1'] = 'ANC'
@@ -122,8 +122,12 @@ def GetCSVs(sample_size):
             print(e)
             duds = duds.sample(len(duds.index.tolist())).reset_index(drop=True)
             df = pd.concat([df,duds]).reset_index(drop=True)
+
+    else:
+        df.sort_values(by='Catenary',inplace=True)
+        df = df.iloc[abs(diff):]
             
-        return df
+    return df
 
 
 # In[6]:
