@@ -126,6 +126,7 @@ def GetCSVs(sample_size):
     else:
         df.sort_values(by='Catenary',inplace=True)
         df = df.iloc[abs(diff):]
+        df = df.sample(frac=1.0)
             
     return df
 
@@ -198,21 +199,22 @@ def rotate(x: tf.Tensor) -> tf.Tensor:
 def SplitDataSet(img_paths, labels):
     
     # split lists into training/test    
-    X_train, X_test, y_train, y_test = train_test_split(img_paths,labels,test_size = .1, random_state=1)
+    X_train, X_test, Y_train, Y_test = train_test_split(img_paths,labels,test_size = .1, random_state=1)
+    # X_tr, X_te, Y_tra, Y_te = train_test_split(img_paths,labels,test_size = .1, random_state=1)
 
     # split lists into training/validation   
-    X_train, X_val, y_train, y_val = train_test_split(X_train,y_train,test_size = .2, random_state=1)
+    # X_train, X_val, Y_train, Y_val = train_test_split(X_train,Y_train,test_size = .2, random_state=1)
 
     print('Number of images in train: ', len(X_train))
-    print("Distribution for train set: ", np.unique(y_train, return_counts=True))
+    print("Distribution for train set: ", np.unique(Y_train, return_counts=True))
     print('\n')
 
-    print('Number of images in validation: ', len(X_val))
-    print("Distribution for validation set: ", np.unique(y_val, return_counts=True))
-    print('\n')
+    # print('Number of images in validation: ', len(X_val))
+    # print("Distribution for validation set: ", np.unique(Y_val, return_counts=True))
+    # print('\n')
 
     print('Number of images in test: ', len(X_test))
-    print("Distribution for test set: ", np.unique(y_test, return_counts=True))
+    print("Distribution for test set: ", np.unique(Y_test, return_counts=True))
     print('\n')
 
     # -----------------------------------
@@ -226,7 +228,7 @@ def SplitDataSet(img_paths, labels):
         train_image_ds = train_image_ds.map(lambda x: tf.cond(tf.random_uniform([], 0, 1) > 0.75, lambda: f(x), lambda: x), num_parallel_calls=4)
     train_image_ds = train_image_ds.map(lambda x: tf.clip_by_value(x, 0, 1))
 
-    train_label_ds = tf.data.Dataset.from_tensor_slices(tf.cast(y_train, tf.int64))
+    train_label_ds = tf.data.Dataset.from_tensor_slices(tf.cast(Y_train, tf.int64))
     
     # Combine into dataset     
     train_image_label_ds = tf.data.Dataset.zip((train_image_ds, train_label_ds))
@@ -235,16 +237,16 @@ def SplitDataSet(img_paths, labels):
     # -----------------------------------
     # validation
     # Read images/labels into tensor data    
-    val_path_ds = tf.data.Dataset.from_tensor_slices(X_val)
-    val_image_ds = val_path_ds.map(PreprocessImage, num_parallel_calls=AUTOTUNE)
-    augmentations = [flip,rotate]
-    for f in augmentations:
-        val_image_ds = val_image_ds.map(lambda x: tf.cond(tf.random_uniform([], 0, 1) > 0.75, lambda: f(x), lambda: x), num_parallel_calls=4)
-    val_image_ds = val_image_ds.map(lambda x: tf.clip_by_value(x, 0, 1))
-    val_label_ds = tf.data.Dataset.from_tensor_slices(tf.cast(y_val, tf.int64))
+    # val_path_ds = tf.data.Dataset.from_tensor_slices(X_val)
+    # val_image_ds = val_path_ds.map(PreprocessImage, num_parallel_calls=AUTOTUNE)
+    # augmentations = [flip,rotate]
+    # for f in augmentations:
+    #     val_image_ds = val_image_ds.map(lambda x: tf.cond(tf.random_uniform([], 0, 1) > 0.75, lambda: f(x), lambda: x), num_parallel_calls=4)
+    # val_image_ds = val_image_ds.map(lambda x: tf.clip_by_value(x, 0, 1))
+    # val_label_ds = tf.data.Dataset.from_tensor_slices(tf.cast(Y_val, tf.int64))
     
-    # Combine into dataset     
-    val_image_label_ds = tf.data.Dataset.zip((val_image_ds, val_label_ds))
+    # # Combine into dataset     
+    # val_image_label_ds = tf.data.Dataset.zip((val_image_ds, val_label_ds))
     
     
     # -----------------------------------
@@ -255,7 +257,7 @@ def SplitDataSet(img_paths, labels):
     for f in augmentations:
         test_image_ds = test_image_ds.map(lambda x: tf.cond(tf.random_uniform([], 0, 1) > 0.75, lambda: f(x), lambda: x), num_parallel_calls=4)
     test_image_ds = test_image_ds.map(lambda x: tf.clip_by_value(x, 0, 1))
-    test_label_ds = tf.data.Dataset.from_tensor_slices(tf.cast(y_test, tf.int64))
+    test_label_ds = tf.data.Dataset.from_tensor_slices(tf.cast(Y_test, tf.int64))
     
     test_image_label_ds = tf.data.Dataset.zip((test_image_ds, test_label_ds))
     
