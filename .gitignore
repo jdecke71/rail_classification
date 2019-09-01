@@ -9,3 +9,4 @@ tmp/
 tensorflow_bin_detector.py
 notebooks/Tagging.ipynb
 data/railways/global/
+data/results/model_VGG_finetuned.h5

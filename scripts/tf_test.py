@@ -21,31 +21,29 @@ def GetCSVs(sample_size):
     # Name of folder
     names = [
         'Australia',
-        'China',
         'Germany',
-        'NewarkLR',
+        'Netherlands',
         'Switzerland',
         'Amtrak',
         'BostonMTBA',
         'DenverRTD',
         'LosAngelesMR',
+        'NewarkLR',
         'SeattleLLR',
-        'Netherlands'
     ]
 
     # Name of csv
     abbr = [
         'AUS',
-        'CHN',
         'GRM',
-        'NEW',
+        'NET',
         'SWZ',
         'AMT',
         'BOS',
         'DEN',
         'LAA',
+        'NEW',
         'SEA',
-        'NET'
     ]
     locations = dict(zip(names,abbr))
 
@@ -200,7 +198,6 @@ def SplitDataSet(img_paths, labels):
     
     # split lists into training/test    
     X_train, X_test, Y_train, Y_test = train_test_split(img_paths,labels,test_size = .1, random_state=1)
-    # X_tr, X_te, Y_tra, Y_te = train_test_split(img_paths,labels,test_size = .1, random_state=1)
 
     # split lists into training/validation   
     X_train, X_val, Y_train, Y_val = train_test_split(X_train,Y_train,test_size = .2, random_state=1)
